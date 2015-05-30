@@ -1,0 +1,2764 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/luxiangrong/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/dist',
+1 verbose cli   '--cache=/Users/luxiangrong/.npm/.cache_cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   'install' ]
+2 info using npm@2.1.18
+3 info using node@v0.10.36
+4 warn package.json mengdongfang@ No description
+5 warn package.json mengdongfang@ No repository field.
+6 warn package.json mengdongfang@ No README data
+7 verbose install where, deps [ '/Users/luxiangrong/workspace/web/mengdongfang',
+7 verbose install   [ 'apache-server-configs',
+7 verbose install     'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-sass',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-mocha',
+7 verbose install     'grunt-modernizr',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-rev',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'grunt-wiredep',
+7 verbose install     'jshint-stylish',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt' ] ]
+8 verbose install where, peers [ '/Users/luxiangrong/workspace/web/mengdongfang', [] ]
+9 info preinstall mengdongfang@
+10 silly cache add args [ 'grunt-autoprefixer@^1.0.0', null ]
+11 verbose cache add spec grunt-autoprefixer@^1.0.0
+12 silly cache add parsed spec { raw: 'grunt-autoprefixer@^1.0.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'grunt-autoprefixer',
+12 silly cache add   rawSpec: '^1.0.0',
+12 silly cache add   spec: '>=1.0.0 <2.0.0',
+12 silly cache add   type: 'range' }
+13 verbose addNamed grunt-autoprefixer@>=1.0.0 <2.0.0
+14 silly addNamed semver.valid null
+15 silly addNamed semver.validRange >=1.0.0 <2.0.0
+16 silly addNameRange { name: 'grunt-autoprefixer',
+16 silly addNameRange   range: '>=1.0.0 <2.0.0',
+16 silly addNameRange   hasData: false }
+17 silly mapToRegistry name grunt-autoprefixer
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npm.taobao.org/
+20 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-autoprefixer
+21 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-autoprefixer not in flight; fetching
+22 silly cache add args [ 'grunt-concurrent@^0.5.0', null ]
+23 verbose cache add spec grunt-concurrent@^0.5.0
+24 silly cache add parsed spec { raw: 'grunt-concurrent@^0.5.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'grunt-concurrent',
+24 silly cache add   rawSpec: '^0.5.0',
+24 silly cache add   spec: '>=0.5.0 <0.6.0',
+24 silly cache add   type: 'range' }
+25 verbose addNamed grunt-concurrent@>=0.5.0 <0.6.0
+26 silly addNamed semver.valid null
+27 silly addNamed semver.validRange >=0.5.0 <0.6.0
+28 silly addNameRange { name: 'grunt-concurrent',
+28 silly addNameRange   range: '>=0.5.0 <0.6.0',
+28 silly addNameRange   hasData: false }
+29 silly mapToRegistry name grunt-concurrent
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npm.taobao.org/
+32 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-concurrent
+33 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-concurrent not in flight; fetching
+34 silly cache add args [ 'grunt-contrib-clean@^0.6.0', null ]
+35 verbose cache add spec grunt-contrib-clean@^0.6.0
+36 silly cache add parsed spec { raw: 'grunt-contrib-clean@^0.6.0',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'grunt-contrib-clean',
+36 silly cache add   rawSpec: '^0.6.0',
+36 silly cache add   spec: '>=0.6.0 <0.7.0',
+36 silly cache add   type: 'range' }
+37 verbose addNamed grunt-contrib-clean@>=0.6.0 <0.7.0
+38 silly addNamed semver.valid null
+39 silly addNamed semver.validRange >=0.6.0 <0.7.0
+40 silly addNameRange { name: 'grunt-contrib-clean',
+40 silly addNameRange   range: '>=0.6.0 <0.7.0',
+40 silly addNameRange   hasData: false }
+41 silly mapToRegistry name grunt-contrib-clean
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npm.taobao.org/
+44 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-clean
+45 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-clean not in flight; fetching
+46 silly cache add args [ 'grunt-contrib-concat@^0.5.0', null ]
+47 verbose cache add spec grunt-contrib-concat@^0.5.0
+48 silly cache add parsed spec { raw: 'grunt-contrib-concat@^0.5.0',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'grunt-contrib-concat',
+48 silly cache add   rawSpec: '^0.5.0',
+48 silly cache add   spec: '>=0.5.0 <0.6.0',
+48 silly cache add   type: 'range' }
+49 verbose addNamed grunt-contrib-concat@>=0.5.0 <0.6.0
+50 silly addNamed semver.valid null
+51 silly addNamed semver.validRange >=0.5.0 <0.6.0
+52 silly addNameRange { name: 'grunt-contrib-concat',
+52 silly addNameRange   range: '>=0.5.0 <0.6.0',
+52 silly addNameRange   hasData: false }
+53 silly mapToRegistry name grunt-contrib-concat
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npm.taobao.org/
+56 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-concat
+57 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-concat not in flight; fetching
+58 silly cache add args [ 'grunt-contrib-connect@^0.8.0', null ]
+59 verbose cache add spec grunt-contrib-connect@^0.8.0
+60 silly cache add parsed spec { raw: 'grunt-contrib-connect@^0.8.0',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'grunt-contrib-connect',
+60 silly cache add   rawSpec: '^0.8.0',
+60 silly cache add   spec: '>=0.8.0 <0.9.0',
+60 silly cache add   type: 'range' }
+61 verbose addNamed grunt-contrib-connect@>=0.8.0 <0.9.0
+62 silly addNamed semver.valid null
+63 silly addNamed semver.validRange >=0.8.0 <0.9.0
+64 silly addNameRange { name: 'grunt-contrib-connect',
+64 silly addNameRange   range: '>=0.8.0 <0.9.0',
+64 silly addNameRange   hasData: false }
+65 silly mapToRegistry name grunt-contrib-connect
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npm.taobao.org/
+68 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-connect
+69 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-connect not in flight; fetching
+70 silly cache add args [ 'grunt-contrib-copy@^0.5.0', null ]
+71 verbose cache add spec grunt-contrib-copy@^0.5.0
+72 silly cache add parsed spec { raw: 'grunt-contrib-copy@^0.5.0',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'grunt-contrib-copy',
+72 silly cache add   rawSpec: '^0.5.0',
+72 silly cache add   spec: '>=0.5.0 <0.6.0',
+72 silly cache add   type: 'range' }
+73 verbose addNamed grunt-contrib-copy@>=0.5.0 <0.6.0
+74 silly addNamed semver.valid null
+75 silly addNamed semver.validRange >=0.5.0 <0.6.0
+76 silly addNameRange { name: 'grunt-contrib-copy',
+76 silly addNameRange   range: '>=0.5.0 <0.6.0',
+76 silly addNameRange   hasData: false }
+77 silly mapToRegistry name grunt-contrib-copy
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npm.taobao.org/
+80 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-copy
+81 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-copy not in flight; fetching
+82 silly cache add args [ 'grunt-contrib-cssmin@^0.10.0', null ]
+83 verbose cache add spec grunt-contrib-cssmin@^0.10.0
+84 silly cache add parsed spec { raw: 'grunt-contrib-cssmin@^0.10.0',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'grunt-contrib-cssmin',
+84 silly cache add   rawSpec: '^0.10.0',
+84 silly cache add   spec: '>=0.10.0 <0.11.0',
+84 silly cache add   type: 'range' }
+85 verbose addNamed grunt-contrib-cssmin@>=0.10.0 <0.11.0
+86 silly addNamed semver.valid null
+87 silly addNamed semver.validRange >=0.10.0 <0.11.0
+88 silly addNameRange { name: 'grunt-contrib-cssmin',
+88 silly addNameRange   range: '>=0.10.0 <0.11.0',
+88 silly addNameRange   hasData: false }
+89 silly mapToRegistry name grunt-contrib-cssmin
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npm.taobao.org/
+92 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-cssmin
+93 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-cssmin not in flight; fetching
+94 silly cache add args [ 'grunt-contrib-htmlmin@^0.3.0', null ]
+95 verbose cache add spec grunt-contrib-htmlmin@^0.3.0
+96 silly cache add parsed spec { raw: 'grunt-contrib-htmlmin@^0.3.0',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'grunt-contrib-htmlmin',
+96 silly cache add   rawSpec: '^0.3.0',
+96 silly cache add   spec: '>=0.3.0 <0.4.0',
+96 silly cache add   type: 'range' }
+97 verbose addNamed grunt-contrib-htmlmin@>=0.3.0 <0.4.0
+98 silly addNamed semver.valid null
+99 silly addNamed semver.validRange >=0.3.0 <0.4.0
+100 silly addNameRange { name: 'grunt-contrib-htmlmin',
+100 silly addNameRange   range: '>=0.3.0 <0.4.0',
+100 silly addNameRange   hasData: false }
+101 silly mapToRegistry name grunt-contrib-htmlmin
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npm.taobao.org/
+104 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-htmlmin
+105 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-htmlmin not in flight; fetching
+106 silly cache add args [ 'grunt-contrib-imagemin@^0.8.0', null ]
+107 verbose cache add spec grunt-contrib-imagemin@^0.8.0
+108 silly cache add parsed spec { raw: 'grunt-contrib-imagemin@^0.8.0',
+108 silly cache add   scope: null,
+108 silly cache add   name: 'grunt-contrib-imagemin',
+108 silly cache add   rawSpec: '^0.8.0',
+108 silly cache add   spec: '>=0.8.0 <0.9.0',
+108 silly cache add   type: 'range' }
+109 verbose addNamed grunt-contrib-imagemin@>=0.8.0 <0.9.0
+110 silly addNamed semver.valid null
+111 silly addNamed semver.validRange >=0.8.0 <0.9.0
+112 silly addNameRange { name: 'grunt-contrib-imagemin',
+112 silly addNameRange   range: '>=0.8.0 <0.9.0',
+112 silly addNameRange   hasData: false }
+113 silly mapToRegistry name grunt-contrib-imagemin
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npm.taobao.org/
+116 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-imagemin
+117 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-imagemin not in flight; fetching
+118 silly cache add args [ 'grunt-contrib-jshint@^0.10.0', null ]
+119 verbose cache add spec grunt-contrib-jshint@^0.10.0
+120 silly cache add parsed spec { raw: 'grunt-contrib-jshint@^0.10.0',
+120 silly cache add   scope: null,
+120 silly cache add   name: 'grunt-contrib-jshint',
+120 silly cache add   rawSpec: '^0.10.0',
+120 silly cache add   spec: '>=0.10.0 <0.11.0',
+120 silly cache add   type: 'range' }
+121 verbose addNamed grunt-contrib-jshint@>=0.10.0 <0.11.0
+122 silly addNamed semver.valid null
+123 silly addNamed semver.validRange >=0.10.0 <0.11.0
+124 silly addNameRange { name: 'grunt-contrib-jshint',
+124 silly addNameRange   range: '>=0.10.0 <0.11.0',
+124 silly addNameRange   hasData: false }
+125 silly mapToRegistry name grunt-contrib-jshint
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npm.taobao.org/
+128 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-jshint
+129 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-jshint not in flight; fetching
+130 silly cache add args [ 'grunt-contrib-sass@^0.7.3', null ]
+131 verbose cache add spec grunt-contrib-sass@^0.7.3
+132 silly cache add parsed spec { raw: 'grunt-contrib-sass@^0.7.3',
+132 silly cache add   scope: null,
+132 silly cache add   name: 'grunt-contrib-sass',
+132 silly cache add   rawSpec: '^0.7.3',
+132 silly cache add   spec: '>=0.7.3 <0.8.0',
+132 silly cache add   type: 'range' }
+133 verbose addNamed grunt-contrib-sass@>=0.7.3 <0.8.0
+134 silly addNamed semver.valid null
+135 silly addNamed semver.validRange >=0.7.3 <0.8.0
+136 silly addNameRange { name: 'grunt-contrib-sass',
+136 silly addNameRange   range: '>=0.7.3 <0.8.0',
+136 silly addNameRange   hasData: false }
+137 silly mapToRegistry name grunt-contrib-sass
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npm.taobao.org/
+140 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-sass
+141 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-sass not in flight; fetching
+142 silly cache add args [ 'grunt-contrib-uglify@^0.5.1', null ]
+143 verbose cache add spec grunt-contrib-uglify@^0.5.1
+144 silly cache add parsed spec { raw: 'grunt-contrib-uglify@^0.5.1',
+144 silly cache add   scope: null,
+144 silly cache add   name: 'grunt-contrib-uglify',
+144 silly cache add   rawSpec: '^0.5.1',
+144 silly cache add   spec: '>=0.5.1 <0.6.0',
+144 silly cache add   type: 'range' }
+145 verbose addNamed grunt-contrib-uglify@>=0.5.1 <0.6.0
+146 silly addNamed semver.valid null
+147 silly addNamed semver.validRange >=0.5.1 <0.6.0
+148 silly addNameRange { name: 'grunt-contrib-uglify',
+148 silly addNameRange   range: '>=0.5.1 <0.6.0',
+148 silly addNameRange   hasData: false }
+149 silly mapToRegistry name grunt-contrib-uglify
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npm.taobao.org/
+152 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-uglify
+153 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-uglify not in flight; fetching
+154 silly cache add args [ 'grunt-contrib-watch@^0.6.1', null ]
+155 verbose cache add spec grunt-contrib-watch@^0.6.1
+156 silly cache add parsed spec { raw: 'grunt-contrib-watch@^0.6.1',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'grunt-contrib-watch',
+156 silly cache add   rawSpec: '^0.6.1',
+156 silly cache add   spec: '>=0.6.1 <0.7.0',
+156 silly cache add   type: 'range' }
+157 verbose addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+158 silly addNamed semver.valid null
+159 silly addNamed semver.validRange >=0.6.1 <0.7.0
+160 silly addNameRange { name: 'grunt-contrib-watch',
+160 silly addNameRange   range: '>=0.6.1 <0.7.0',
+160 silly addNameRange   hasData: false }
+161 silly mapToRegistry name grunt-contrib-watch
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npm.taobao.org/
+164 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-contrib-watch
+165 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-contrib-watch not in flight; fetching
+166 silly cache add args [ 'grunt-mocha@^0.4.10', null ]
+167 verbose cache add spec grunt-mocha@^0.4.10
+168 silly cache add parsed spec { raw: 'grunt-mocha@^0.4.10',
+168 silly cache add   scope: null,
+168 silly cache add   name: 'grunt-mocha',
+168 silly cache add   rawSpec: '^0.4.10',
+168 silly cache add   spec: '>=0.4.10 <0.5.0',
+168 silly cache add   type: 'range' }
+169 verbose addNamed grunt-mocha@>=0.4.10 <0.5.0
+170 silly addNamed semver.valid null
+171 silly addNamed semver.validRange >=0.4.10 <0.5.0
+172 silly addNameRange { name: 'grunt-mocha', range: '>=0.4.10 <0.5.0', hasData: false }
+173 silly mapToRegistry name grunt-mocha
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npm.taobao.org/
+176 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-mocha
+177 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-mocha not in flight; fetching
+178 silly cache add args [ 'grunt-modernizr@^0.5.2', null ]
+179 verbose cache add spec grunt-modernizr@^0.5.2
+180 silly cache add parsed spec { raw: 'grunt-modernizr@^0.5.2',
+180 silly cache add   scope: null,
+180 silly cache add   name: 'grunt-modernizr',
+180 silly cache add   rawSpec: '^0.5.2',
+180 silly cache add   spec: '>=0.5.2 <0.6.0',
+180 silly cache add   type: 'range' }
+181 verbose addNamed grunt-modernizr@>=0.5.2 <0.6.0
+182 silly addNamed semver.valid null
+183 silly addNamed semver.validRange >=0.5.2 <0.6.0
+184 silly addNameRange { name: 'grunt-modernizr',
+184 silly addNameRange   range: '>=0.5.2 <0.6.0',
+184 silly addNameRange   hasData: false }
+185 silly mapToRegistry name grunt-modernizr
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npm.taobao.org/
+188 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-modernizr
+189 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-modernizr not in flight; fetching
+190 silly cache add args [ 'grunt-newer@^0.7.0', null ]
+191 verbose cache add spec grunt-newer@^0.7.0
+192 silly cache add parsed spec { raw: 'grunt-newer@^0.7.0',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'grunt-newer',
+192 silly cache add   rawSpec: '^0.7.0',
+192 silly cache add   spec: '>=0.7.0 <0.8.0',
+192 silly cache add   type: 'range' }
+193 verbose addNamed grunt-newer@>=0.7.0 <0.8.0
+194 silly addNamed semver.valid null
+195 silly addNamed semver.validRange >=0.7.0 <0.8.0
+196 silly addNameRange { name: 'grunt-newer', range: '>=0.7.0 <0.8.0', hasData: false }
+197 silly mapToRegistry name grunt-newer
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npm.taobao.org/
+200 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-newer
+201 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-newer not in flight; fetching
+202 silly cache add args [ 'grunt-rev@^0.1.0', null ]
+203 verbose cache add spec grunt-rev@^0.1.0
+204 silly cache add parsed spec { raw: 'grunt-rev@^0.1.0',
+204 silly cache add   scope: null,
+204 silly cache add   name: 'grunt-rev',
+204 silly cache add   rawSpec: '^0.1.0',
+204 silly cache add   spec: '>=0.1.0 <0.2.0',
+204 silly cache add   type: 'range' }
+205 verbose addNamed grunt-rev@>=0.1.0 <0.2.0
+206 silly addNamed semver.valid null
+207 silly addNamed semver.validRange >=0.1.0 <0.2.0
+208 silly addNameRange { name: 'grunt-rev', range: '>=0.1.0 <0.2.0', hasData: false }
+209 silly mapToRegistry name grunt-rev
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npm.taobao.org/
+212 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-rev
+213 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-rev not in flight; fetching
+214 silly cache add args [ 'grunt-svgmin@^0.4.0', null ]
+215 verbose cache add spec grunt-svgmin@^0.4.0
+216 silly cache add parsed spec { raw: 'grunt-svgmin@^0.4.0',
+216 silly cache add   scope: null,
+216 silly cache add   name: 'grunt-svgmin',
+216 silly cache add   rawSpec: '^0.4.0',
+216 silly cache add   spec: '>=0.4.0 <0.5.0',
+216 silly cache add   type: 'range' }
+217 verbose addNamed grunt-svgmin@>=0.4.0 <0.5.0
+218 silly addNamed semver.valid null
+219 silly addNamed semver.validRange >=0.4.0 <0.5.0
+220 silly addNameRange { name: 'grunt-svgmin', range: '>=0.4.0 <0.5.0', hasData: false }
+221 silly mapToRegistry name grunt-svgmin
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npm.taobao.org/
+224 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-svgmin
+225 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-svgmin not in flight; fetching
+226 silly cache add args [ 'grunt-usemin@^2.3.0', null ]
+227 verbose cache add spec grunt-usemin@^2.3.0
+228 silly cache add parsed spec { raw: 'grunt-usemin@^2.3.0',
+228 silly cache add   scope: null,
+228 silly cache add   name: 'grunt-usemin',
+228 silly cache add   rawSpec: '^2.3.0',
+228 silly cache add   spec: '>=2.3.0 <3.0.0',
+228 silly cache add   type: 'range' }
+229 verbose addNamed grunt-usemin@>=2.3.0 <3.0.0
+230 silly addNamed semver.valid null
+231 silly addNamed semver.validRange >=2.3.0 <3.0.0
+232 silly addNameRange { name: 'grunt-usemin', range: '>=2.3.0 <3.0.0', hasData: false }
+233 silly mapToRegistry name grunt-usemin
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npm.taobao.org/
+236 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-usemin
+237 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-usemin not in flight; fetching
+238 silly cache add args [ 'grunt-wiredep@^1.7.0', null ]
+239 verbose cache add spec grunt-wiredep@^1.7.0
+240 silly cache add parsed spec { raw: 'grunt-wiredep@^1.7.0',
+240 silly cache add   scope: null,
+240 silly cache add   name: 'grunt-wiredep',
+240 silly cache add   rawSpec: '^1.7.0',
+240 silly cache add   spec: '>=1.7.0 <2.0.0',
+240 silly cache add   type: 'range' }
+241 verbose addNamed grunt-wiredep@>=1.7.0 <2.0.0
+242 silly addNamed semver.valid null
+243 silly addNamed semver.validRange >=1.7.0 <2.0.0
+244 silly addNameRange { name: 'grunt-wiredep',
+244 silly addNameRange   range: '>=1.7.0 <2.0.0',
+244 silly addNameRange   hasData: false }
+245 silly mapToRegistry name grunt-wiredep
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npm.taobao.org/
+248 silly mapToRegistry uri https://registry.npm.taobao.org/grunt-wiredep
+249 verbose addNameRange registry:https://registry.npm.taobao.org/grunt-wiredep not in flight; fetching
+250 silly cache add args [ 'jshint-stylish@^0.4.0', null ]
+251 verbose cache add spec jshint-stylish@^0.4.0
+252 silly cache add parsed spec { raw: 'jshint-stylish@^0.4.0',
+252 silly cache add   scope: null,
+252 silly cache add   name: 'jshint-stylish',
+252 silly cache add   rawSpec: '^0.4.0',
+252 silly cache add   spec: '>=0.4.0 <0.5.0',
+252 silly cache add   type: 'range' }
+253 verbose addNamed jshint-stylish@>=0.4.0 <0.5.0
+254 silly addNamed semver.valid null
+255 silly addNamed semver.validRange >=0.4.0 <0.5.0
+256 silly addNameRange { name: 'jshint-stylish',
+256 silly addNameRange   range: '>=0.4.0 <0.5.0',
+256 silly addNameRange   hasData: false }
+257 silly mapToRegistry name jshint-stylish
+258 silly mapToRegistry using default registry
+259 silly mapToRegistry registry https://registry.npm.taobao.org/
+260 silly mapToRegistry uri https://registry.npm.taobao.org/jshint-stylish
+261 verbose addNameRange registry:https://registry.npm.taobao.org/jshint-stylish not in flight; fetching
+262 silly cache add args [ 'load-grunt-tasks@^0.4.0', null ]
+263 verbose cache add spec load-grunt-tasks@^0.4.0
+264 silly cache add parsed spec { raw: 'load-grunt-tasks@^0.4.0',
+264 silly cache add   scope: null,
+264 silly cache add   name: 'load-grunt-tasks',
+264 silly cache add   rawSpec: '^0.4.0',
+264 silly cache add   spec: '>=0.4.0 <0.5.0',
+264 silly cache add   type: 'range' }
+265 verbose addNamed load-grunt-tasks@>=0.4.0 <0.5.0
+266 silly addNamed semver.valid null
+267 silly addNamed semver.validRange >=0.4.0 <0.5.0
+268 silly addNameRange { name: 'load-grunt-tasks',
+268 silly addNameRange   range: '>=0.4.0 <0.5.0',
+268 silly addNameRange   hasData: false }
+269 silly mapToRegistry name load-grunt-tasks
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npm.taobao.org/
+272 silly mapToRegistry uri https://registry.npm.taobao.org/load-grunt-tasks
+273 verbose addNameRange registry:https://registry.npm.taobao.org/load-grunt-tasks not in flight; fetching
+274 silly cache add args [ 'time-grunt@^0.4.0', null ]
+275 verbose cache add spec time-grunt@^0.4.0
+276 silly cache add parsed spec { raw: 'time-grunt@^0.4.0',
+276 silly cache add   scope: null,
+276 silly cache add   name: 'time-grunt',
+276 silly cache add   rawSpec: '^0.4.0',
+276 silly cache add   spec: '>=0.4.0 <0.5.0',
+276 silly cache add   type: 'range' }
+277 verbose addNamed time-grunt@>=0.4.0 <0.5.0
+278 silly addNamed semver.valid null
+279 silly addNamed semver.validRange >=0.4.0 <0.5.0
+280 silly addNameRange { name: 'time-grunt', range: '>=0.4.0 <0.5.0', hasData: false }
+281 silly mapToRegistry name time-grunt
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npm.taobao.org/
+284 silly mapToRegistry uri https://registry.npm.taobao.org/time-grunt
+285 verbose addNameRange registry:https://registry.npm.taobao.org/time-grunt not in flight; fetching
+286 silly cache add args [ 'apache-server-configs@^2.7.1', null ]
+287 verbose cache add spec apache-server-configs@^2.7.1
+288 silly cache add parsed spec { raw: 'apache-server-configs@^2.7.1',
+288 silly cache add   scope: null,
+288 silly cache add   name: 'apache-server-configs',
+288 silly cache add   rawSpec: '^2.7.1',
+288 silly cache add   spec: '>=2.7.1 <3.0.0',
+288 silly cache add   type: 'range' }
+289 verbose addNamed apache-server-configs@>=2.7.1 <3.0.0
+290 silly addNamed semver.valid null
+291 silly addNamed semver.validRange >=2.7.1 <3.0.0
+292 silly addNameRange { name: 'apache-server-configs',
+292 silly addNameRange   range: '>=2.7.1 <3.0.0',
+292 silly addNameRange   hasData: false }
+293 silly mapToRegistry name apache-server-configs
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npm.taobao.org/
+296 silly mapToRegistry uri https://registry.npm.taobao.org/apache-server-configs
+297 verbose addNameRange registry:https://registry.npm.taobao.org/apache-server-configs not in flight; fetching
+298 silly cache add args [ 'grunt@^0.4.5', null ]
+299 verbose cache add spec grunt@^0.4.5
+300 silly cache add parsed spec { raw: 'grunt@^0.4.5',
+300 silly cache add   scope: null,
+300 silly cache add   name: 'grunt',
+300 silly cache add   rawSpec: '^0.4.5',
+300 silly cache add   spec: '>=0.4.5 <0.5.0',
+300 silly cache add   type: 'range' }
+301 verbose addNamed grunt@>=0.4.5 <0.5.0
+302 silly addNamed semver.valid null
+303 silly addNamed semver.validRange >=0.4.5 <0.5.0
+304 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+305 silly mapToRegistry name grunt
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npm.taobao.org/
+308 silly mapToRegistry uri https://registry.npm.taobao.org/grunt
+309 verbose addNameRange registry:https://registry.npm.taobao.org/grunt not in flight; fetching
+310 verbose request uri https://registry.npm.taobao.org/grunt-autoprefixer
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 12:20:23
+313 verbose request id 9bda6d8f113af4be
+314 verbose etag "1432921225000"
+315 http request GET https://registry.npm.taobao.org/grunt-autoprefixer
+316 verbose request uri https://registry.npm.taobao.org/grunt-concurrent
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 12:20:23
+319 verbose etag "1409635714000"
+320 http request GET https://registry.npm.taobao.org/grunt-concurrent
+321 verbose request uri https://registry.npm.taobao.org/grunt-contrib-clean
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 12:20:23
+324 verbose etag "1406537197000"
+325 http request GET https://registry.npm.taobao.org/grunt-contrib-clean
+326 verbose request uri https://registry.npm.taobao.org/grunt-contrib-concat
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 12:20:23
+329 verbose etag "1424404704000"
+330 http request GET https://registry.npm.taobao.org/grunt-contrib-concat
+331 verbose request uri https://registry.npm.taobao.org/grunt-contrib-connect
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 12:20:23
+334 verbose etag "1428073135000"
+335 http request GET https://registry.npm.taobao.org/grunt-contrib-connect
+336 verbose request uri https://registry.npm.taobao.org/grunt-contrib-copy
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 12:20:23
+339 verbose etag "1424419724000"
+340 http request GET https://registry.npm.taobao.org/grunt-contrib-copy
+341 verbose request uri https://registry.npm.taobao.org/grunt-contrib-cssmin
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 12:20:23
+344 verbose etag "1431167222000"
+345 http request GET https://registry.npm.taobao.org/grunt-contrib-cssmin
+346 verbose request uri https://registry.npm.taobao.org/grunt-contrib-htmlmin
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 12:20:23
+349 verbose etag "1423218392000"
+350 http request GET https://registry.npm.taobao.org/grunt-contrib-htmlmin
+351 verbose request uri https://registry.npm.taobao.org/grunt-contrib-imagemin
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 12:20:23
+354 verbose etag "1427042910000"
+355 http request GET https://registry.npm.taobao.org/grunt-contrib-imagemin
+356 verbose request uri https://registry.npm.taobao.org/grunt-contrib-jshint
+357 verbose request no auth needed
+358 info attempt registry request try #1 at 12:20:23
+359 verbose etag "1429174723000"
+360 http request GET https://registry.npm.taobao.org/grunt-contrib-jshint
+361 verbose request uri https://registry.npm.taobao.org/grunt-contrib-sass
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 12:20:23
+364 verbose etag "1423324585000"
+365 http request GET https://registry.npm.taobao.org/grunt-contrib-sass
+366 verbose request uri https://registry.npm.taobao.org/grunt-contrib-uglify
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 12:20:23
+369 verbose etag "1428459567000"
+370 http request GET https://registry.npm.taobao.org/grunt-contrib-uglify
+371 verbose request uri https://registry.npm.taobao.org/grunt-contrib-watch
+372 verbose request no auth needed
+373 info attempt registry request try #1 at 12:20:23
+374 verbose etag "1397485229000"
+375 http request GET https://registry.npm.taobao.org/grunt-contrib-watch
+376 verbose request uri https://registry.npm.taobao.org/grunt-mocha
+377 verbose request no auth needed
+378 info attempt registry request try #1 at 12:20:23
+379 verbose etag "1425064723000"
+380 http request GET https://registry.npm.taobao.org/grunt-mocha
+381 verbose request uri https://registry.npm.taobao.org/grunt-modernizr
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 12:20:23
+384 verbose etag "1412219487000"
+385 http request GET https://registry.npm.taobao.org/grunt-modernizr
+386 verbose request uri https://registry.npm.taobao.org/grunt-rev
+387 verbose request no auth needed
+388 info attempt registry request try #1 at 12:20:23
+389 verbose etag "1397590735000"
+390 http request GET https://registry.npm.taobao.org/grunt-rev
+391 verbose request uri https://registry.npm.taobao.org/grunt-newer
+392 verbose request no auth needed
+393 info attempt registry request try #1 at 12:20:23
+394 verbose etag "1420824736000"
+395 http request GET https://registry.npm.taobao.org/grunt-newer
+396 verbose request uri https://registry.npm.taobao.org/grunt-svgmin
+397 verbose request no auth needed
+398 info attempt registry request try #1 at 12:20:23
+399 verbose etag "1424786904000"
+400 http request GET https://registry.npm.taobao.org/grunt-svgmin
+401 verbose request uri https://registry.npm.taobao.org/grunt-wiredep
+402 verbose request no auth needed
+403 info attempt registry request try #1 at 12:20:23
+404 verbose etag "1416849965000"
+405 http request GET https://registry.npm.taobao.org/grunt-wiredep
+406 verbose request uri https://registry.npm.taobao.org/jshint-stylish
+407 verbose request no auth needed
+408 info attempt registry request try #1 at 12:20:23
+409 verbose etag "1432392439000"
+410 http request GET https://registry.npm.taobao.org/jshint-stylish
+411 verbose request uri https://registry.npm.taobao.org/grunt-usemin
+412 verbose request no auth needed
+413 info attempt registry request try #1 at 12:20:23
+414 verbose etag "1418277150000"
+415 http request GET https://registry.npm.taobao.org/grunt-usemin
+416 verbose request uri https://registry.npm.taobao.org/load-grunt-tasks
+417 verbose request no auth needed
+418 info attempt registry request try #1 at 12:20:23
+419 verbose etag "1432235242000"
+420 http request GET https://registry.npm.taobao.org/load-grunt-tasks
+421 verbose request uri https://registry.npm.taobao.org/time-grunt
+422 verbose request no auth needed
+423 info attempt registry request try #1 at 12:20:23
+424 verbose etag "1432157845000"
+425 http request GET https://registry.npm.taobao.org/time-grunt
+426 verbose request uri https://registry.npm.taobao.org/apache-server-configs
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 12:20:23
+429 verbose etag "1428458498000"
+430 http request GET https://registry.npm.taobao.org/apache-server-configs
+431 verbose request uri https://registry.npm.taobao.org/grunt
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 12:20:23
+434 verbose etag "1425590912000"
+435 http request GET https://registry.npm.taobao.org/grunt
+436 http 304 https://registry.npm.taobao.org/grunt-concurrent
+437 silly get cb [ 304,
+437 silly get   { server: 'nginx/1.1.19',
+437 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+437 silly get     connection: 'keep-alive',
+437 silly get     etag: '"1409635714000"',
+437 silly get     'x-readtime': '6' } ]
+438 verbose etag https://registry.npm.taobao.org/grunt-concurrent from cache
+439 silly addNameRange number 2 { name: 'grunt-concurrent',
+439 silly addNameRange   range: '>=0.5.0 <0.6.0',
+439 silly addNameRange   hasData: true }
+440 silly addNameRange versions [ 'grunt-concurrent',
+440 silly addNameRange   [ '1.0.0',
+440 silly addNameRange     '0.5.0',
+440 silly addNameRange     '0.4.3',
+440 silly addNameRange     '0.4.2',
+440 silly addNameRange     '0.4.1',
+440 silly addNameRange     '0.4.0',
+440 silly addNameRange     '0.3.1',
+440 silly addNameRange     '0.3.0',
+440 silly addNameRange     '0.2.0',
+440 silly addNameRange     '0.1.1',
+440 silly addNameRange     '0.1.0' ] ]
+441 verbose addNamed grunt-concurrent@0.5.0
+442 silly addNamed semver.valid 0.5.0
+443 silly addNamed semver.validRange 0.5.0
+444 silly cache afterAdd grunt-concurrent@0.5.0
+445 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-concurrent/0.5.0/package/package.json not in flight; writing
+446 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-concurrent/0.5.0/package/package.json written
+447 http 304 https://registry.npm.taobao.org/grunt-autoprefixer
+448 silly get cb [ 304,
+448 silly get   { server: 'nginx/1.1.19',
+448 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+448 silly get     connection: 'keep-alive',
+448 silly get     etag: '"1432921225000"',
+448 silly get     'x-readtime': '6' } ]
+449 verbose etag https://registry.npm.taobao.org/grunt-autoprefixer from cache
+450 http 304 https://registry.npm.taobao.org/grunt-contrib-connect
+451 silly get cb [ 304,
+451 silly get   { server: 'nginx/1.1.19',
+451 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+451 silly get     connection: 'keep-alive',
+451 silly get     etag: '"1428073135000"',
+451 silly get     'x-readtime': '5' } ]
+452 verbose etag https://registry.npm.taobao.org/grunt-contrib-connect from cache
+453 http 304 https://registry.npm.taobao.org/grunt-contrib-clean
+454 silly get cb [ 304,
+454 silly get   { server: 'nginx/1.1.19',
+454 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+454 silly get     connection: 'keep-alive',
+454 silly get     etag: '"1406537197000"',
+454 silly get     'x-readtime': '8' } ]
+455 verbose etag https://registry.npm.taobao.org/grunt-contrib-clean from cache
+456 http 304 https://registry.npm.taobao.org/grunt-contrib-concat
+457 silly get cb [ 304,
+457 silly get   { server: 'nginx/1.1.19',
+457 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+457 silly get     connection: 'keep-alive',
+457 silly get     etag: '"1424404704000"',
+457 silly get     'x-readtime': '6' } ]
+458 verbose etag https://registry.npm.taobao.org/grunt-contrib-concat from cache
+459 silly addNameRange number 2 { name: 'grunt-autoprefixer',
+459 silly addNameRange   range: '>=1.0.0 <2.0.0',
+459 silly addNameRange   hasData: true }
+460 silly addNameRange versions [ 'grunt-autoprefixer',
+460 silly addNameRange   [ '3.0.1',
+460 silly addNameRange     '3.0.0',
+460 silly addNameRange     '2.2.0',
+460 silly addNameRange     '2.1.0',
+460 silly addNameRange     '2.0.0',
+460 silly addNameRange     '1.0.1',
+460 silly addNameRange     '1.0.0',
+460 silly addNameRange     '0.8.2',
+460 silly addNameRange     '0.8.1',
+460 silly addNameRange     '0.8.0',
+460 silly addNameRange     '0.7.6',
+460 silly addNameRange     '0.7.5',
+460 silly addNameRange     '0.7.4',
+460 silly addNameRange     '0.7.3',
+460 silly addNameRange     '0.7.2',
+460 silly addNameRange     '0.7.1',
+460 silly addNameRange     '0.7.0',
+460 silly addNameRange     '0.6.5',
+460 silly addNameRange     '0.6.4',
+460 silly addNameRange     '0.6.3',
+460 silly addNameRange     '0.6.2',
+460 silly addNameRange     '0.6.1',
+460 silly addNameRange     '0.6.0',
+460 silly addNameRange     '0.5.0',
+460 silly addNameRange     '0.4.2',
+460 silly addNameRange     '0.4.1',
+460 silly addNameRange     '0.4.0',
+460 silly addNameRange     '0.3.1',
+460 silly addNameRange     '0.3.0',
+460 silly addNameRange     '0.2.20130806',
+460 silly addNameRange     '0.2.20130718',
+460 silly addNameRange     '0.2.0',
+460 silly addNameRange     '0.1.20130615',
+460 silly addNameRange     '0.1.20130516',
+460 silly addNameRange     '0.1.20130424',
+460 silly addNameRange     '0.1.0' ] ]
+461 verbose addNamed grunt-autoprefixer@1.0.1
+462 silly addNamed semver.valid 1.0.1
+463 silly addNamed semver.validRange 1.0.1
+464 http 304 https://registry.npm.taobao.org/grunt-contrib-copy
+465 silly get cb [ 304,
+465 silly get   { server: 'nginx/1.1.19',
+465 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+465 silly get     connection: 'keep-alive',
+465 silly get     etag: '"1424419724000"',
+465 silly get     'x-readtime': '6' } ]
+466 verbose etag https://registry.npm.taobao.org/grunt-contrib-copy from cache
+467 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+467 silly addNameRange   range: '>=0.8.0 <0.9.0',
+467 silly addNameRange   hasData: true }
+468 silly addNameRange versions [ 'grunt-contrib-connect',
+468 silly addNameRange   [ '0.10.1',
+468 silly addNameRange     '0.10.0',
+468 silly addNameRange     '0.9.0',
+468 silly addNameRange     '0.8.0',
+468 silly addNameRange     '0.1.1-rc6',
+468 silly addNameRange     '0.7.1',
+468 silly addNameRange     '0.7.0',
+468 silly addNameRange     '0.6.0',
+468 silly addNameRange     '0.5.0',
+468 silly addNameRange     '0.4.2',
+468 silly addNameRange     '0.4.1',
+468 silly addNameRange     '0.4.0',
+468 silly addNameRange     '0.3.0',
+468 silly addNameRange     '0.2.0',
+468 silly addNameRange     '0.1.2',
+468 silly addNameRange     '0.1.1',
+468 silly addNameRange     '0.1.0' ] ]
+469 verbose addNamed grunt-contrib-connect@0.8.0
+470 silly addNamed semver.valid 0.8.0
+471 silly addNamed semver.validRange 0.8.0
+472 silly addNameRange number 2 { name: 'grunt-contrib-clean',
+472 silly addNameRange   range: '>=0.6.0 <0.7.0',
+472 silly addNameRange   hasData: true }
+473 silly addNameRange versions [ 'grunt-contrib-clean',
+473 silly addNameRange   [ '0.6.0',
+473 silly addNameRange     '0.4.0-rc6',
+473 silly addNameRange     '0.4.0-rc5',
+473 silly addNameRange     '0.4.0-a',
+473 silly addNameRange     '0.5.0',
+473 silly addNameRange     '0.4.1',
+473 silly addNameRange     '0.4.0',
+473 silly addNameRange     '0.3.2',
+473 silly addNameRange     '0.3.1',
+473 silly addNameRange     '0.3.0',
+473 silly addNameRange     '0.2.0',
+473 silly addNameRange     '0.1.0' ] ]
+474 verbose addNamed grunt-contrib-clean@0.6.0
+475 silly addNamed semver.valid 0.6.0
+476 silly addNamed semver.validRange 0.6.0
+477 silly addNameRange number 2 { name: 'grunt-contrib-concat',
+477 silly addNameRange   range: '>=0.5.0 <0.6.0',
+477 silly addNameRange   hasData: true }
+478 silly addNameRange versions [ 'grunt-contrib-concat',
+478 silly addNameRange   [ '0.5.1',
+478 silly addNameRange     '0.5.0',
+478 silly addNameRange     '0.1.2-rc6',
+478 silly addNameRange     '0.1.2-rc5',
+478 silly addNameRange     '0.4.0',
+478 silly addNameRange     '0.3.0',
+478 silly addNameRange     '0.2.0',
+478 silly addNameRange     '0.1.3',
+478 silly addNameRange     '0.1.2',
+478 silly addNameRange     '0.1.1',
+478 silly addNameRange     '0.1.0' ] ]
+479 verbose addNamed grunt-contrib-concat@0.5.1
+480 silly addNamed semver.valid 0.5.1
+481 silly addNamed semver.validRange 0.5.1
+482 silly cache afterAdd grunt-autoprefixer@1.0.1
+483 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-autoprefixer/1.0.1/package/package.json not in flight; writing
+484 silly cache afterAdd grunt-contrib-connect@0.8.0
+485 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-connect/0.8.0/package/package.json not in flight; writing
+486 silly cache afterAdd grunt-contrib-clean@0.6.0
+487 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-clean/0.6.0/package/package.json not in flight; writing
+488 silly cache afterAdd grunt-contrib-concat@0.5.1
+489 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-concat/0.5.1/package/package.json not in flight; writing
+490 silly addNameRange number 2 { name: 'grunt-contrib-copy',
+490 silly addNameRange   range: '>=0.5.0 <0.6.0',
+490 silly addNameRange   hasData: true }
+491 silly addNameRange versions [ 'grunt-contrib-copy',
+491 silly addNameRange   [ '0.8.0',
+491 silly addNameRange     '0.7.0',
+491 silly addNameRange     '0.6.0',
+491 silly addNameRange     '0.4.0-rc7',
+491 silly addNameRange     '0.5.0',
+491 silly addNameRange     '0.4.1',
+491 silly addNameRange     '0.4.0',
+491 silly addNameRange     '0.3.2',
+491 silly addNameRange     '0.3.1',
+491 silly addNameRange     '0.3.0',
+491 silly addNameRange     '0.2.4',
+491 silly addNameRange     '0.2.3',
+491 silly addNameRange     '0.2.2',
+491 silly addNameRange     '0.2.1',
+491 silly addNameRange     '0.2.0' ] ]
+492 verbose addNamed grunt-contrib-copy@0.5.0
+493 silly addNamed semver.valid 0.5.0
+494 silly addNamed semver.validRange 0.5.0
+495 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-autoprefixer/1.0.1/package/package.json written
+496 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-connect/0.8.0/package/package.json written
+497 http 304 https://registry.npm.taobao.org/grunt-contrib-cssmin
+498 silly get cb [ 304,
+498 silly get   { server: 'nginx/1.1.19',
+498 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+498 silly get     connection: 'keep-alive',
+498 silly get     etag: '"1431167222000"',
+498 silly get     'x-readtime': '5' } ]
+499 verbose etag https://registry.npm.taobao.org/grunt-contrib-cssmin from cache
+500 http 304 https://registry.npm.taobao.org/grunt-contrib-htmlmin
+501 silly get cb [ 304,
+501 silly get   { server: 'nginx/1.1.19',
+501 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+501 silly get     connection: 'keep-alive',
+501 silly get     etag: '"1423218392000"',
+501 silly get     'x-readtime': '6' } ]
+502 verbose etag https://registry.npm.taobao.org/grunt-contrib-htmlmin from cache
+503 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-clean/0.6.0/package/package.json written
+504 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-concat/0.5.1/package/package.json written
+505 silly cache afterAdd grunt-contrib-copy@0.5.0
+506 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-copy/0.5.0/package/package.json not in flight; writing
+507 http 304 https://registry.npm.taobao.org/grunt-contrib-jshint
+508 silly get cb [ 304,
+508 silly get   { server: 'nginx/1.1.19',
+508 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+508 silly get     connection: 'keep-alive',
+508 silly get     etag: '"1429174723000"',
+508 silly get     'x-readtime': '8' } ]
+509 verbose etag https://registry.npm.taobao.org/grunt-contrib-jshint from cache
+510 http 304 https://registry.npm.taobao.org/grunt-contrib-imagemin
+511 silly get cb [ 304,
+511 silly get   { server: 'nginx/1.1.19',
+511 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+511 silly get     connection: 'keep-alive',
+511 silly get     etag: '"1427042910000"',
+511 silly get     'x-readtime': '6' } ]
+512 verbose etag https://registry.npm.taobao.org/grunt-contrib-imagemin from cache
+513 silly addNameRange number 2 { name: 'grunt-contrib-cssmin',
+513 silly addNameRange   range: '>=0.10.0 <0.11.0',
+513 silly addNameRange   hasData: true }
+514 silly addNameRange versions [ 'grunt-contrib-cssmin',
+514 silly addNameRange   [ '0.12.3',
+514 silly addNameRange     '0.12.2',
+514 silly addNameRange     '0.12.1',
+514 silly addNameRange     '0.12.0',
+514 silly addNameRange     '0.11.0',
+514 silly addNameRange     '0.10.0',
+514 silly addNameRange     '0.9.0',
+514 silly addNameRange     '0.8.0',
+514 silly addNameRange     '0.7.0',
+514 silly addNameRange     '0.6.2',
+514 silly addNameRange     '0.6.1',
+514 silly addNameRange     '0.6.0',
+514 silly addNameRange     '0.5.0',
+514 silly addNameRange     '0.4.2',
+514 silly addNameRange     '0.4.1',
+514 silly addNameRange     '0.4.0' ] ]
+515 verbose addNamed grunt-contrib-cssmin@0.10.0
+516 silly addNamed semver.valid 0.10.0
+517 silly addNamed semver.validRange 0.10.0
+518 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-copy/0.5.0/package/package.json written
+519 silly addNameRange number 2 { name: 'grunt-contrib-htmlmin',
+519 silly addNameRange   range: '>=0.3.0 <0.4.0',
+519 silly addNameRange   hasData: true }
+520 silly addNameRange versions [ 'grunt-contrib-htmlmin',
+520 silly addNameRange   [ '0.4.0',
+520 silly addNameRange     '0.3.0',
+520 silly addNameRange     '0.2.0',
+520 silly addNameRange     '0.1.3',
+520 silly addNameRange     '0.1.2',
+520 silly addNameRange     '0.1.1',
+520 silly addNameRange     '0.1.1-rc7',
+520 silly addNameRange     '0.1.0' ] ]
+521 verbose addNamed grunt-contrib-htmlmin@0.3.0
+522 silly addNamed semver.valid 0.3.0
+523 silly addNamed semver.validRange 0.3.0
+524 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+524 silly addNameRange   range: '>=0.10.0 <0.11.0',
+524 silly addNameRange   hasData: true }
+525 silly addNameRange versions [ 'grunt-contrib-jshint',
+525 silly addNameRange   [ '0.11.2',
+525 silly addNameRange     '0.11.1',
+525 silly addNameRange     '0.11.0',
+525 silly addNameRange     '0.1.1-rc6',
+525 silly addNameRange     '0.1.1-rc5',
+525 silly addNameRange     '0.10.0',
+525 silly addNameRange     '0.9.2',
+525 silly addNameRange     '0.9.1',
+525 silly addNameRange     '0.9.0',
+525 silly addNameRange     '0.8.0',
+525 silly addNameRange     '0.7.2',
+525 silly addNameRange     '0.7.1',
+525 silly addNameRange     '0.7.0',
+525 silly addNameRange     '0.6.5',
+525 silly addNameRange     '0.6.4',
+525 silly addNameRange     '0.6.3',
+525 silly addNameRange     '0.6.2',
+525 silly addNameRange     '0.6.1',
+525 silly addNameRange     '0.6.0',
+525 silly addNameRange     '0.5.4',
+525 silly addNameRange     '0.5.3',
+525 silly addNameRange     '0.5.2',
+525 silly addNameRange     '0.5.1',
+525 silly addNameRange     '0.5.0',
+525 silly addNameRange     '0.4.3',
+525 silly addNameRange     '0.4.2',
+525 silly addNameRange     '0.4.1',
+525 silly addNameRange     '0.4.0',
+525 silly addNameRange     '0.3.0',
+525 silly addNameRange     '0.2.0',
+525 silly addNameRange     '0.1.1',
+525 silly addNameRange     '0.1.0' ] ]
+526 verbose addNamed grunt-contrib-jshint@0.10.0
+527 silly addNamed semver.valid 0.10.0
+528 silly addNamed semver.validRange 0.10.0
+529 silly cache afterAdd grunt-contrib-cssmin@0.10.0
+530 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-cssmin/0.10.0/package/package.json not in flight; writing
+531 http 304 https://registry.npm.taobao.org/grunt-contrib-sass
+532 silly get cb [ 304,
+532 silly get   { server: 'nginx/1.1.19',
+532 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+532 silly get     connection: 'keep-alive',
+532 silly get     etag: '"1423324585000"',
+532 silly get     'x-readtime': '5' } ]
+533 verbose etag https://registry.npm.taobao.org/grunt-contrib-sass from cache
+534 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+534 silly addNameRange   range: '>=0.8.0 <0.9.0',
+534 silly addNameRange   hasData: true }
+535 silly addNameRange versions [ 'grunt-contrib-imagemin',
+535 silly addNameRange   [ '0.9.4',
+535 silly addNameRange     '0.9.3',
+535 silly addNameRange     '0.9.2',
+535 silly addNameRange     '0.9.1',
+535 silly addNameRange     '0.9.0',
+535 silly addNameRange     '0.8.1',
+535 silly addNameRange     '0.8.0',
+535 silly addNameRange     '0.7.2',
+535 silly addNameRange     '0.7.1',
+535 silly addNameRange     '0.7.0',
+535 silly addNameRange     '0.6.1',
+535 silly addNameRange     '0.6.0',
+535 silly addNameRange     '0.5.0',
+535 silly addNameRange     '0.4.1',
+535 silly addNameRange     '0.4.0',
+535 silly addNameRange     '0.3.0',
+535 silly addNameRange     '0.2.1',
+535 silly addNameRange     '0.2.0',
+535 silly addNameRange     '0.1.1-rc8',
+535 silly addNameRange     '0.1.1-rc7',
+535 silly addNameRange     '0.1.4',
+535 silly addNameRange     '0.1.3',
+535 silly addNameRange     '0.1.2',
+535 silly addNameRange     '0.1.1',
+535 silly addNameRange     '0.1.0' ] ]
+536 verbose addNamed grunt-contrib-imagemin@0.8.1
+537 silly addNamed semver.valid 0.8.1
+538 silly addNamed semver.validRange 0.8.1
+539 silly cache afterAdd grunt-contrib-htmlmin@0.3.0
+540 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-htmlmin/0.3.0/package/package.json not in flight; writing
+541 silly cache afterAdd grunt-contrib-jshint@0.10.0
+542 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-jshint/0.10.0/package/package.json not in flight; writing
+543 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-cssmin/0.10.0/package/package.json written
+544 silly cache afterAdd grunt-contrib-imagemin@0.8.1
+545 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-imagemin/0.8.1/package/package.json not in flight; writing
+546 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-htmlmin/0.3.0/package/package.json written
+547 silly addNameRange number 2 { name: 'grunt-contrib-sass',
+547 silly addNameRange   range: '>=0.7.3 <0.8.0',
+547 silly addNameRange   hasData: true }
+548 silly addNameRange versions [ 'grunt-contrib-sass',
+548 silly addNameRange   [ '0.9.2',
+548 silly addNameRange     '0.9.1',
+548 silly addNameRange     '0.9.0',
+548 silly addNameRange     '0.8.1',
+548 silly addNameRange     '0.8.0',
+548 silly addNameRange     '0.7.4',
+548 silly addNameRange     '0.7.3',
+548 silly addNameRange     '0.7.2',
+548 silly addNameRange     '0.7.1',
+548 silly addNameRange     '0.7.0',
+548 silly addNameRange     '0.2.2-rc7',
+548 silly addNameRange     '0.6.0',
+548 silly addNameRange     '0.5.1',
+548 silly addNameRange     '0.5.0',
+548 silly addNameRange     '0.4.1',
+548 silly addNameRange     '0.4.0',
+548 silly addNameRange     '0.3.0',
+548 silly addNameRange     '0.2.2',
+548 silly addNameRange     '0.2.1',
+548 silly addNameRange     '0.2.0',
+548 silly addNameRange     '0.1.3',
+548 silly addNameRange     '0.1.2',
+548 silly addNameRange     '0.1.1',
+548 silly addNameRange     '0.1.0' ] ]
+549 verbose addNamed grunt-contrib-sass@0.7.4
+550 silly addNamed semver.valid 0.7.4
+551 silly addNamed semver.validRange 0.7.4
+552 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-jshint/0.10.0/package/package.json written
+553 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-imagemin/0.8.1/package/package.json written
+554 silly cache afterAdd grunt-contrib-sass@0.7.4
+555 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-sass/0.7.4/package/package.json not in flight; writing
+556 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-sass/0.7.4/package/package.json written
+557 http 304 https://registry.npm.taobao.org/grunt-contrib-watch
+558 silly get cb [ 304,
+558 silly get   { server: 'nginx/1.1.19',
+558 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+558 silly get     connection: 'keep-alive',
+558 silly get     etag: '"1397485229000"',
+558 silly get     'x-readtime': '4' } ]
+559 verbose etag https://registry.npm.taobao.org/grunt-contrib-watch from cache
+560 http 304 https://registry.npm.taobao.org/grunt-contrib-uglify
+561 silly get cb [ 304,
+561 silly get   { server: 'nginx/1.1.19',
+561 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+561 silly get     connection: 'keep-alive',
+561 silly get     etag: '"1428459567000"',
+561 silly get     'x-readtime': '6' } ]
+562 verbose etag https://registry.npm.taobao.org/grunt-contrib-uglify from cache
+563 http 304 https://registry.npm.taobao.org/grunt-modernizr
+564 silly get cb [ 304,
+564 silly get   { server: 'nginx/1.1.19',
+564 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+564 silly get     connection: 'keep-alive',
+564 silly get     etag: '"1412219487000"',
+564 silly get     'x-readtime': '8' } ]
+565 verbose etag https://registry.npm.taobao.org/grunt-modernizr from cache
+566 http 304 https://registry.npm.taobao.org/grunt-mocha
+567 silly get cb [ 304,
+567 silly get   { server: 'nginx/1.1.19',
+567 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+567 silly get     connection: 'keep-alive',
+567 silly get     etag: '"1425064723000"',
+567 silly get     'x-readtime': '6' } ]
+568 verbose etag https://registry.npm.taobao.org/grunt-mocha from cache
+569 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+569 silly addNameRange   range: '>=0.5.1 <0.6.0',
+569 silly addNameRange   hasData: true }
+570 silly addNameRange versions [ 'grunt-contrib-uglify',
+570 silly addNameRange   [ '0.9.1',
+570 silly addNameRange     '0.9.0',
+570 silly addNameRange     '0.8.1',
+570 silly addNameRange     '0.8.0',
+570 silly addNameRange     '0.7.0',
+570 silly addNameRange     '0.6.0',
+570 silly addNameRange     '0.5.1',
+570 silly addNameRange     '0.4.1',
+570 silly addNameRange     '0.5.0',
+570 silly addNameRange     '0.4.0',
+570 silly addNameRange     '0.3.3',
+570 silly addNameRange     '0.3.2',
+570 silly addNameRange     '0.1.1-rc6',
+570 silly addNameRange     '0.1.1-rc5',
+570 silly addNameRange     '0.3.1',
+570 silly addNameRange     '0.3.0',
+570 silly addNameRange     '0.2.7',
+570 silly addNameRange     '0.2.6',
+570 silly addNameRange     '0.2.5',
+570 silly addNameRange     '0.2.4',
+570 silly addNameRange     '0.2.3',
+570 silly addNameRange     '0.2.2',
+570 silly addNameRange     '0.2.1',
+570 silly addNameRange     '0.2.0',
+570 silly addNameRange     '0.1.2',
+570 silly addNameRange     '0.1.1',
+570 silly addNameRange     '0.1.0' ] ]
+571 verbose addNamed grunt-contrib-uglify@0.5.1
+572 silly addNamed semver.valid 0.5.1
+573 silly addNamed semver.validRange 0.5.1
+574 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+574 silly addNameRange   range: '>=0.6.1 <0.7.0',
+574 silly addNameRange   hasData: true }
+575 silly addNameRange versions [ 'grunt-contrib-watch',
+575 silly addNameRange   [ '0.2.0-rc7',
+575 silly addNameRange     '0.2.0-rc5',
+575 silly addNameRange     '0.2.0-a',
+575 silly addNameRange     '0.6.1',
+575 silly addNameRange     '0.6.0',
+575 silly addNameRange     '0.5.3',
+575 silly addNameRange     '0.5.2',
+575 silly addNameRange     '0.5.1',
+575 silly addNameRange     '0.5.0',
+575 silly addNameRange     '0.4.4',
+575 silly addNameRange     '0.4.3',
+575 silly addNameRange     '0.4.2',
+575 silly addNameRange     '0.4.1',
+575 silly addNameRange     '0.4.0',
+575 silly addNameRange     '0.3.1',
+575 silly addNameRange     '0.3.0',
+575 silly addNameRange     '0.2.0',
+575 silly addNameRange     '0.1.4',
+575 silly addNameRange     '0.1.3',
+575 silly addNameRange     '0.1.2',
+575 silly addNameRange     '0.1.1',
+575 silly addNameRange     '0.1.0' ] ]
+576 verbose addNamed grunt-contrib-watch@0.6.1
+577 silly addNamed semver.valid 0.6.1
+578 silly addNamed semver.validRange 0.6.1
+579 silly addNameRange number 2 { name: 'grunt-modernizr',
+579 silly addNameRange   range: '>=0.5.2 <0.6.0',
+579 silly addNameRange   hasData: true }
+580 silly addNameRange versions [ 'grunt-modernizr',
+580 silly addNameRange   [ '0.6.0',
+580 silly addNameRange     '0.5.2',
+580 silly addNameRange     '0.5.1',
+580 silly addNameRange     '0.5.0',
+580 silly addNameRange     '0.4.1',
+580 silly addNameRange     '0.4.0',
+580 silly addNameRange     '0.3.1',
+580 silly addNameRange     '0.3.0',
+580 silly addNameRange     '0.2.2',
+580 silly addNameRange     '0.2.1',
+580 silly addNameRange     '0.2.0',
+580 silly addNameRange     '0.1.6',
+580 silly addNameRange     '0.1.5',
+580 silly addNameRange     '0.1.4',
+580 silly addNameRange     '0.1.3',
+580 silly addNameRange     '0.1.2',
+580 silly addNameRange     '0.1.1',
+580 silly addNameRange     '0.1.0' ] ]
+581 verbose addNamed grunt-modernizr@0.5.2
+582 silly addNamed semver.valid 0.5.2
+583 silly addNamed semver.validRange 0.5.2
+584 silly addNameRange number 2 { name: 'grunt-mocha', range: '>=0.4.10 <0.5.0', hasData: true }
+585 silly addNameRange versions [ 'grunt-mocha',
+585 silly addNameRange   [ '0.4.12',
+585 silly addNameRange     '0.4.11',
+585 silly addNameRange     '0.4.10',
+585 silly addNameRange     '0.4.9',
+585 silly addNameRange     '0.4.8',
+585 silly addNameRange     '0.4.7',
+585 silly addNameRange     '0.4.6',
+585 silly addNameRange     '0.4.5',
+585 silly addNameRange     '0.4.4',
+585 silly addNameRange     '0.4.1',
+585 silly addNameRange     '0.4.0',
+585 silly addNameRange     '0.3.4',
+585 silly addNameRange     '0.3.3',
+585 silly addNameRange     '0.3.2',
+585 silly addNameRange     '0.3.1',
+585 silly addNameRange     '0.3.0',
+585 silly addNameRange     '0.2.3',
+585 silly addNameRange     '0.2.2',
+585 silly addNameRange     '0.2.1',
+585 silly addNameRange     '0.2.0',
+585 silly addNameRange     '0.1.7',
+585 silly addNameRange     '0.1.6',
+585 silly addNameRange     '0.1.5',
+585 silly addNameRange     '0.1.4',
+585 silly addNameRange     '0.1.3',
+585 silly addNameRange     '0.1.2',
+585 silly addNameRange     '0.1.1',
+585 silly addNameRange     '0.1.0' ] ]
+586 verbose addNamed grunt-mocha@0.4.12
+587 silly addNamed semver.valid 0.4.12
+588 silly addNamed semver.validRange 0.4.12
+589 silly cache afterAdd grunt-contrib-uglify@0.5.1
+590 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-uglify/0.5.1/package/package.json not in flight; writing
+591 silly cache afterAdd grunt-contrib-watch@0.6.1
+592 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-watch/0.6.1/package/package.json not in flight; writing
+593 http 304 https://registry.npm.taobao.org/grunt-rev
+594 silly get cb [ 304,
+594 silly get   { server: 'nginx/1.1.19',
+594 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+594 silly get     connection: 'keep-alive',
+594 silly get     etag: '"1397590735000"',
+594 silly get     'x-readtime': '5' } ]
+595 verbose etag https://registry.npm.taobao.org/grunt-rev from cache
+596 silly cache afterAdd grunt-modernizr@0.5.2
+597 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-modernizr/0.5.2/package/package.json not in flight; writing
+598 silly cache afterAdd grunt-mocha@0.4.12
+599 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-mocha/0.4.12/package/package.json not in flight; writing
+600 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-uglify/0.5.1/package/package.json written
+601 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-contrib-watch/0.6.1/package/package.json written
+602 silly addNameRange number 2 { name: 'grunt-rev', range: '>=0.1.0 <0.2.0', hasData: true }
+603 silly addNameRange versions [ 'grunt-rev', [ '0.1.0' ] ]
+604 verbose addNamed grunt-rev@0.1.0
+605 silly addNamed semver.valid 0.1.0
+606 silly addNamed semver.validRange 0.1.0
+607 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-modernizr/0.5.2/package/package.json written
+608 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-mocha/0.4.12/package/package.json written
+609 silly cache afterAdd grunt-rev@0.1.0
+610 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-rev/0.1.0/package/package.json not in flight; writing
+611 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-rev/0.1.0/package/package.json written
+612 http 304 https://registry.npm.taobao.org/grunt-newer
+613 silly get cb [ 304,
+613 silly get   { server: 'nginx/1.1.19',
+613 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+613 silly get     connection: 'keep-alive',
+613 silly get     etag: '"1420824736000"',
+613 silly get     'x-readtime': '6' } ]
+614 verbose etag https://registry.npm.taobao.org/grunt-newer from cache
+615 http 304 https://registry.npm.taobao.org/grunt-svgmin
+616 silly get cb [ 304,
+616 silly get   { server: 'nginx/1.1.19',
+616 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+616 silly get     connection: 'keep-alive',
+616 silly get     etag: '"1424786904000"',
+616 silly get     'x-readtime': '8' } ]
+617 verbose etag https://registry.npm.taobao.org/grunt-svgmin from cache
+618 silly addNameRange number 2 { name: 'grunt-newer', range: '>=0.7.0 <0.8.0', hasData: true }
+619 silly addNameRange versions [ 'grunt-newer',
+619 silly addNameRange   [ '1.1.0',
+619 silly addNameRange     '1.0.0',
+619 silly addNameRange     '0.8.0',
+619 silly addNameRange     '0.7.0',
+619 silly addNameRange     '0.6.1',
+619 silly addNameRange     '0.6.0',
+619 silly addNameRange     '0.5.4',
+619 silly addNameRange     '0.5.3',
+619 silly addNameRange     '0.5.2',
+619 silly addNameRange     '0.5.1',
+619 silly addNameRange     '0.5.0',
+619 silly addNameRange     '0.4.1',
+619 silly addNameRange     '0.4.0',
+619 silly addNameRange     '0.3.1',
+619 silly addNameRange     '0.2.0',
+619 silly addNameRange     '0.1.0' ] ]
+620 verbose addNamed grunt-newer@0.7.0
+621 silly addNamed semver.valid 0.7.0
+622 silly addNamed semver.validRange 0.7.0
+623 http 304 https://registry.npm.taobao.org/grunt-wiredep
+624 silly get cb [ 304,
+624 silly get   { server: 'nginx/1.1.19',
+624 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+624 silly get     connection: 'keep-alive',
+624 silly get     etag: '"1416849965000"',
+624 silly get     'x-readtime': '9' } ]
+625 verbose etag https://registry.npm.taobao.org/grunt-wiredep from cache
+626 http 304 https://registry.npm.taobao.org/jshint-stylish
+627 silly get cb [ 304,
+627 silly get   { server: 'nginx/1.1.19',
+627 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+627 silly get     connection: 'keep-alive',
+627 silly get     etag: '"1432392439000"',
+627 silly get     'x-readtime': '7' } ]
+628 verbose etag https://registry.npm.taobao.org/jshint-stylish from cache
+629 silly addNameRange number 2 { name: 'grunt-svgmin', range: '>=0.4.0 <0.5.0', hasData: true }
+630 silly addNameRange versions [ 'grunt-svgmin',
+630 silly addNameRange   [ '2.0.1',
+630 silly addNameRange     '2.0.0',
+630 silly addNameRange     '1.0.0',
+630 silly addNameRange     '0.4.0',
+630 silly addNameRange     '0.3.1',
+630 silly addNameRange     '0.3.0',
+630 silly addNameRange     '0.2.1',
+630 silly addNameRange     '0.2.0',
+630 silly addNameRange     '0.1.0' ] ]
+631 verbose addNamed grunt-svgmin@0.4.0
+632 silly addNamed semver.valid 0.4.0
+633 silly addNamed semver.validRange 0.4.0
+634 silly cache afterAdd grunt-newer@0.7.0
+635 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-newer/0.7.0/package/package.json not in flight; writing
+636 silly cache afterAdd grunt-svgmin@0.4.0
+637 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-svgmin/0.4.0/package/package.json not in flight; writing
+638 silly addNameRange number 2 { name: 'grunt-wiredep', range: '>=1.7.0 <2.0.0', hasData: true }
+639 silly addNameRange versions [ 'grunt-wiredep',
+639 silly addNameRange   [ '2.0.0', '1.9.0', '1.8.0', '1.7.1', '1.7.0' ] ]
+640 verbose addNamed grunt-wiredep@1.9.0
+641 silly addNamed semver.valid 1.9.0
+642 silly addNamed semver.validRange 1.9.0
+643 silly addNameRange number 2 { name: 'jshint-stylish',
+643 silly addNameRange   range: '>=0.4.0 <0.5.0',
+643 silly addNameRange   hasData: true }
+644 silly addNameRange versions [ 'jshint-stylish',
+644 silly addNameRange   [ '2.0.0',
+644 silly addNameRange     '1.0.2',
+644 silly addNameRange     '1.0.1',
+644 silly addNameRange     '1.0.0',
+644 silly addNameRange     '0.4.0',
+644 silly addNameRange     '0.3.0',
+644 silly addNameRange     '0.2.0',
+644 silly addNameRange     '0.1.5',
+644 silly addNameRange     '0.1.4',
+644 silly addNameRange     '0.1.3',
+644 silly addNameRange     '0.1.2',
+644 silly addNameRange     '0.1.1',
+644 silly addNameRange     '0.1.0' ] ]
+645 verbose addNamed jshint-stylish@0.4.0
+646 silly addNamed semver.valid 0.4.0
+647 silly addNamed semver.validRange 0.4.0
+648 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-newer/0.7.0/package/package.json written
+649 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-svgmin/0.4.0/package/package.json written
+650 silly cache afterAdd grunt-wiredep@1.9.0
+651 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-wiredep/1.9.0/package/package.json not in flight; writing
+652 silly cache afterAdd jshint-stylish@0.4.0
+653 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/jshint-stylish/0.4.0/package/package.json not in flight; writing
+654 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-wiredep/1.9.0/package/package.json written
+655 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/jshint-stylish/0.4.0/package/package.json written
+656 http 304 https://registry.npm.taobao.org/grunt-usemin
+657 silly get cb [ 304,
+657 silly get   { server: 'nginx/1.1.19',
+657 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+657 silly get     connection: 'keep-alive',
+657 silly get     etag: '"1418277150000"',
+657 silly get     'x-readtime': '5' } ]
+658 verbose etag https://registry.npm.taobao.org/grunt-usemin from cache
+659 silly addNameRange number 2 { name: 'grunt-usemin', range: '>=2.3.0 <3.0.0', hasData: true }
+660 silly addNameRange versions [ 'grunt-usemin',
+660 silly addNameRange   [ '3.0.0',
+660 silly addNameRange     '2.6.2',
+660 silly addNameRange     '2.6.1',
+660 silly addNameRange     '2.6.0',
+660 silly addNameRange     '2.5.1',
+660 silly addNameRange     '2.5.0',
+660 silly addNameRange     '2.4.0',
+660 silly addNameRange     '2.3.0',
+660 silly addNameRange     '2.2.0',
+660 silly addNameRange     '2.1.1',
+660 silly addNameRange     '2.1.0',
+660 silly addNameRange     '2.0.2',
+660 silly addNameRange     '2.0.1',
+660 silly addNameRange     '2.0.0',
+660 silly addNameRange     '0.1.13',
+660 silly addNameRange     '0.1.12',
+660 silly addNameRange     '0.1.11',
+660 silly addNameRange     '0.1.10',
+660 silly addNameRange     '0.1.4',
+660 silly addNameRange     '0.1.9',
+660 silly addNameRange     '0.1.8',
+660 silly addNameRange     '0.1.7',
+660 silly addNameRange     '0.1.6',
+660 silly addNameRange     '0.1.5',
+660 silly addNameRange     '0.1.2',
+660 silly addNameRange     '0.1.1',
+660 silly addNameRange     '0.1.0' ] ]
+661 verbose addNamed grunt-usemin@2.6.2
+662 silly addNamed semver.valid 2.6.2
+663 silly addNamed semver.validRange 2.6.2
+664 silly cache afterAdd grunt-usemin@2.6.2
+665 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-usemin/2.6.2/package/package.json not in flight; writing
+666 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt-usemin/2.6.2/package/package.json written
+667 http 304 https://registry.npm.taobao.org/load-grunt-tasks
+668 silly get cb [ 304,
+668 silly get   { server: 'nginx/1.1.19',
+668 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+668 silly get     connection: 'keep-alive',
+668 silly get     etag: '"1432235242000"',
+668 silly get     'x-readtime': '5' } ]
+669 verbose etag https://registry.npm.taobao.org/load-grunt-tasks from cache
+670 http 304 https://registry.npm.taobao.org/time-grunt
+671 silly get cb [ 304,
+671 silly get   { server: 'nginx/1.1.19',
+671 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+671 silly get     connection: 'keep-alive',
+671 silly get     etag: '"1432157845000"',
+671 silly get     'x-readtime': '5' } ]
+672 verbose etag https://registry.npm.taobao.org/time-grunt from cache
+673 http 304 https://registry.npm.taobao.org/grunt
+674 silly get cb [ 304,
+674 silly get   { server: 'nginx/1.1.19',
+674 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+674 silly get     connection: 'keep-alive',
+674 silly get     etag: '"1425590912000"',
+674 silly get     'x-readtime': '8' } ]
+675 verbose etag https://registry.npm.taobao.org/grunt from cache
+676 http 304 https://registry.npm.taobao.org/apache-server-configs
+677 silly get cb [ 304,
+677 silly get   { server: 'nginx/1.1.19',
+677 silly get     date: 'Sat, 30 May 2015 04:20:23 GMT',
+677 silly get     connection: 'keep-alive',
+677 silly get     etag: '"1428458498000"',
+677 silly get     'x-readtime': '6' } ]
+678 verbose etag https://registry.npm.taobao.org/apache-server-configs from cache
+679 silly addNameRange number 2 { name: 'time-grunt', range: '>=0.4.0 <0.5.0', hasData: true }
+680 silly addNameRange versions [ 'time-grunt',
+680 silly addNameRange   [ '1.2.1',
+680 silly addNameRange     '1.2.0',
+680 silly addNameRange     '1.1.1',
+680 silly addNameRange     '1.1.0',
+680 silly addNameRange     '1.0.0',
+680 silly addNameRange     '0.4.0',
+680 silly addNameRange     '0.3.2',
+680 silly addNameRange     '0.3.1',
+680 silly addNameRange     '0.2.10',
+680 silly addNameRange     '0.2.9',
+680 silly addNameRange     '0.2.8',
+680 silly addNameRange     '0.2.7',
+680 silly addNameRange     '0.2.6',
+680 silly addNameRange     '0.2.5',
+680 silly addNameRange     '0.2.4',
+680 silly addNameRange     '0.2.3',
+680 silly addNameRange     '0.2.2',
+680 silly addNameRange     '0.2.1',
+680 silly addNameRange     '0.2.0',
+680 silly addNameRange     '0.1.2',
+680 silly addNameRange     '0.1.1',
+680 silly addNameRange     '0.1.0' ] ]
+681 verbose addNamed time-grunt@0.4.0
+682 silly addNamed semver.valid 0.4.0
+683 silly addNamed semver.validRange 0.4.0
+684 silly addNameRange number 2 { name: 'load-grunt-tasks',
+684 silly addNameRange   range: '>=0.4.0 <0.5.0',
+684 silly addNameRange   hasData: true }
+685 silly addNameRange versions [ 'load-grunt-tasks',
+685 silly addNameRange   [ '3.2.0',
+685 silly addNameRange     '3.1.0',
+685 silly addNameRange     '3.0.0',
+685 silly addNameRange     '2.0.0',
+685 silly addNameRange     '1.0.0',
+685 silly addNameRange     '0.6.0',
+685 silly addNameRange     '0.5.0',
+685 silly addNameRange     '0.4.0',
+685 silly addNameRange     '0.3.0',
+685 silly addNameRange     '0.2.1',
+685 silly addNameRange     '0.2.0',
+685 silly addNameRange     '0.1.3',
+685 silly addNameRange     '0.1.2',
+685 silly addNameRange     '0.1.1',
+685 silly addNameRange     '0.1.0' ] ]
+686 verbose addNamed load-grunt-tasks@0.4.0
+687 silly addNamed semver.valid 0.4.0
+688 silly addNamed semver.validRange 0.4.0
+689 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+690 silly addNameRange versions [ 'grunt',
+690 silly addNameRange   [ '0.4.5',
+690 silly addNameRange     '0.4.4',
+690 silly addNameRange     '0.4.3',
+690 silly addNameRange     '0.4.2',
+690 silly addNameRange     '0.4.1',
+690 silly addNameRange     '0.4.0',
+690 silly addNameRange     '0.3.17',
+690 silly addNameRange     '0.3.16',
+690 silly addNameRange     '0.3.15',
+690 silly addNameRange     '0.3.14',
+690 silly addNameRange     '0.3.13',
+690 silly addNameRange     '0.3.12',
+690 silly addNameRange     '0.3.11',
+690 silly addNameRange     '0.3.10',
+690 silly addNameRange     '0.3.9',
+690 silly addNameRange     '0.3.8',
+690 silly addNameRange     '0.3.7',
+690 silly addNameRange     '0.3.6',
+690 silly addNameRange     '0.3.5',
+690 silly addNameRange     '0.3.4',
+690 silly addNameRange     '0.3.3',
+690 silly addNameRange     '0.3.2',
+690 silly addNameRange     '0.3.1',
+690 silly addNameRange     '0.3.0',
+690 silly addNameRange     '0.2.15',
+690 silly addNameRange     '0.2.14',
+690 silly addNameRange     '0.2.13',
+690 silly addNameRange     '0.2.12',
+690 silly addNameRange     '0.2.11',
+690 silly addNameRange     '0.2.10',
+690 silly addNameRange     '0.2.9',
+690 silly addNameRange     '0.2.8',
+690 silly addNameRange     '0.2.7',
+690 silly addNameRange     '0.2.6',
+690 silly addNameRange     '0.2.5',
+690 silly addNameRange     '0.2.4',
+690 silly addNameRange     '0.2.3',
+690 silly addNameRange     '0.2.2',
+690 silly addNameRange     '0.2.1',
+690 silly addNameRange     '0.2.0',
+690 silly addNameRange     '0.1.2',
+690 silly addNameRange     '0.1.1',
+690 silly addNameRange     '0.1.0' ] ]
+691 verbose addNamed grunt@0.4.5
+692 silly addNamed semver.valid 0.4.5
+693 silly addNamed semver.validRange 0.4.5
+694 silly cache afterAdd time-grunt@0.4.0
+695 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/time-grunt/0.4.0/package/package.json not in flight; writing
+696 silly cache afterAdd load-grunt-tasks@0.4.0
+697 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/load-grunt-tasks/0.4.0/package/package.json not in flight; writing
+698 silly addNameRange number 2 { name: 'apache-server-configs',
+698 silly addNameRange   range: '>=2.7.1 <3.0.0',
+698 silly addNameRange   hasData: true }
+699 silly addNameRange versions [ 'apache-server-configs',
+699 silly addNameRange   [ '2.14.0',
+699 silly addNameRange     '2.13.0',
+699 silly addNameRange     '2.12.0',
+699 silly addNameRange     '2.11.0',
+699 silly addNameRange     '2.10.0',
+699 silly addNameRange     '2.9.0',
+699 silly addNameRange     '2.8.0',
+699 silly addNameRange     '2.7.1',
+699 silly addNameRange     '2.7.0' ] ]
+700 verbose addNamed apache-server-configs@2.14.0
+701 silly addNamed semver.valid 2.14.0
+702 silly addNamed semver.validRange 2.14.0
+703 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/time-grunt/0.4.0/package/package.json written
+704 silly cache afterAdd grunt@0.4.5
+705 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt/0.4.5/package/package.json not in flight; writing
+706 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/load-grunt-tasks/0.4.0/package/package.json written
+707 silly cache afterAdd apache-server-configs@2.14.0
+708 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/apache-server-configs/2.14.0/package/package.json not in flight; writing
+709 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/grunt/0.4.5/package/package.json written
+710 verbose afterAdd /Users/luxiangrong/.npm/.cache_cnpm/apache-server-configs/2.14.0/package/package.json written
+711 silly install resolved [ { name: 'grunt-concurrent',
+711 silly install resolved     version: '0.5.0',
+711 silly install resolved     description: 'Run grunt tasks concurrently',
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'gruntplugin',
+711 silly install resolved        'concurrent',
+711 silly install resolved        'parallel',
+711 silly install resolved        'simultaneous',
+711 silly install resolved        'optimize',
+711 silly install resolved        'speed' ],
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sindre Sorhus',
+711 silly install resolved        email: 'sindresorhus@gmail.com',
+711 silly install resolved        url: 'http://sindresorhus.com' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/sindresorhus/grunt-concurrent' },
+711 silly install resolved     scripts: { test: 'npm install nodemon -g && grunt' },
+711 silly install resolved     dependencies: { async: '~0.2.9', 'pad-stdio': '^0.1.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.1',
+711 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+711 silly install resolved        'grunt-simple-mocha': '~0.4.0',
+711 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+711 silly install resolved        'grunt-nodemon': '^0.2.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     licenses: { type: 'MIT' },
+711 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-concurrent/issues' },
+711 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-concurrent',
+711 silly install resolved     _id: 'grunt-concurrent@0.5.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '4a519a4c287825f0de0715f73b85d150c750d9f7',
+711 silly install resolved        size: 2597,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-concurrent/download/grunt-concurrent-0.5.0.tgz' },
+711 silly install resolved     _from: 'grunt-concurrent@>=0.5.0 <0.6.0',
+711 silly install resolved     _npmVersion: '1.4.4',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1394151587228,
+711 silly install resolved     _cnpm_publish_time: 1394151587228,
+711 silly install resolved     _shasum: '4a519a4c287825f0de0715f73b85d150c750d9f7',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-concurrent/download/grunt-concurrent-0.5.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-autoprefixer',
+711 silly install resolved     version: '1.0.1',
+711 silly install resolved     description: 'Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.',
+711 silly install resolved     author: { name: 'Dmitry Nikitenko', email: 'dima.nikitenko@gmail.com' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'https://github.com/nDmitry/grunt-autoprefixer' },
+711 silly install resolved     license: 'MIT',
+711 silly install resolved     engines: { node: '>= 0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'css', 'postprocessor', 'prefix', 'autoprefixer' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE' ],
+711 silly install resolved     dependencies:
+711 silly install resolved      { 'autoprefixer-core': '^3.0.0',
+711 silly install resolved        diff: '~1.0.8',
+711 silly install resolved        chalk: '~0.5.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.4',
+711 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-contrib-clean': '~0.6.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+711 silly install resolved        'grunt-contrib-copy': '~0.5.0',
+711 silly install resolved        'load-grunt-tasks': '~0.6.0',
+711 silly install resolved        'time-grunt': '~1.0.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.2' },
+711 silly install resolved     gitHead: '8b63bc6b9ce2de94d8fcde53bbffcb58d9008fde',
+711 silly install resolved     bugs: { url: 'https://github.com/nDmitry/grunt-autoprefixer/issues' },
+711 silly install resolved     homepage: 'https://github.com/nDmitry/grunt-autoprefixer',
+711 silly install resolved     _id: 'grunt-autoprefixer@1.0.1',
+711 silly install resolved     _shasum: '4d0db047e4a7488d71e5bda98a18435aee0b4446',
+711 silly install resolved     _from: 'grunt-autoprefixer@>=1.0.0 <2.0.0',
+711 silly install resolved     _npmVersion: '1.4.23',
+711 silly install resolved     _npmUser: { name: 'weiss', email: 'dima.nikitenko@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '4d0db047e4a7488d71e5bda98a18435aee0b4446',
+711 silly install resolved        size: 4069,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-autoprefixer/download/grunt-autoprefixer-1.0.1.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1408768078394,
+711 silly install resolved     _cnpm_publish_time: 1408768078394,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-autoprefixer/download/grunt-autoprefixer-1.0.1.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-connect',
+711 silly install resolved     description: 'Start a connect web server.',
+711 silly install resolved     version: '0.8.0',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-connect',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-connect.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-connect/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt jshint test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { connect: '~2.19.5',
+711 silly install resolved        'connect-livereload': '~0.4.0',
+711 silly install resolved        open: '0.0.5',
+711 silly install resolved        portscanner: '~0.2.3',
+711 silly install resolved        async: '~0.9.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.10',
+711 silly install resolved        grunt: '~0.4.5',
+711 silly install resolved        'grunt-cli': '~0.1.13' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'server', 'connect', 'http' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-connect@0.8.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '1f70043e3a473ae8fb7a8acbf929ce104eaf4323',
+711 silly install resolved        size: 11929,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-connect/download/grunt-contrib-connect-0.8.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-connect@>=0.8.0 <0.9.0',
+711 silly install resolved     _npmVersion: '1.3.26',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1402348706273,
+711 silly install resolved     _cnpm_publish_time: 1402348706273,
+711 silly install resolved     _shasum: '1f70043e3a473ae8fb7a8acbf929ce104eaf4323',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-connect/download/grunt-contrib-connect-0.8.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-clean',
+711 silly install resolved     description: 'Clean files and folders.',
+711 silly install resolved     version: '0.6.0',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-clean',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-clean.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-clean/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies: { rimraf: '~2.2.1' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.10',
+711 silly install resolved        grunt: '~0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-clean@0.6.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+711 silly install resolved        size: 3509,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-clean/download/grunt-contrib-clean-0.6.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-clean@>=0.6.0 <0.7.0',
+711 silly install resolved     _npmVersion: '1.3.26',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1406507786222,
+711 silly install resolved     _cnpm_publish_time: 1406507786222,
+711 silly install resolved     _shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-clean/download/grunt-contrib-clean-0.6.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-concat',
+711 silly install resolved     description: 'Concatenate files.',
+711 silly install resolved     version: '0.5.1',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'https://github.com/gruntjs/grunt-contrib-concat' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies: { chalk: '^0.5.1', 'source-map': '^0.3.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '^0.4.5',
+711 silly install resolved        'grunt-cli': '^0.1.13',
+711 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+711 silly install resolved        'grunt-contrib-internal': '^0.4.2',
+711 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     files: [ 'tasks' ],
+711 silly install resolved     appveyor_id: 'l42173901ms416km',
+711 silly install resolved     contributors:
+711 silly install resolved      [ [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object] ],
+711 silly install resolved     gitHead: 'd4d97a6a65404351155c04fff9303f3c20d5c02c',
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-concat/issues' },
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-concat',
+711 silly install resolved     _id: 'grunt-contrib-concat@0.5.1',
+711 silly install resolved     _shasum: '953c6efdfdfd2c107ab9c85077f2d4b24d31cd49',
+711 silly install resolved     _from: 'grunt-contrib-concat@>=0.5.0 <0.6.0',
+711 silly install resolved     _npmVersion: '1.4.28',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '953c6efdfdfd2c107ab9c85077f2d4b24d31cd49',
+711 silly install resolved        size: 7474,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-concat/download/grunt-contrib-concat-0.5.1.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1424403859696,
+711 silly install resolved     _cnpm_publish_time: 1424403859696,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-concat/download/grunt-contrib-concat-0.5.1.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-copy',
+711 silly install resolved     description: 'Copy files and folders.',
+711 silly install resolved     version: '0.5.0',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-copy',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-copy.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-copy/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-jshint': '~0.6.2',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+711 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.5',
+711 silly install resolved        grunt: '~0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-copy@0.5.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '410075ac45a5856ba191b1cc725725450d4a0215',
+711 silly install resolved        size: 4555,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-copy/download/grunt-contrib-copy-0.5.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-copy@>=0.5.0 <0.6.0',
+711 silly install resolved     _npmVersion: '1.3.15',
+711 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1387859038033,
+711 silly install resolved     _cnpm_publish_time: 1387859038033,
+711 silly install resolved     _shasum: '410075ac45a5856ba191b1cc725725450d4a0215',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-copy/download/grunt-contrib-copy-0.5.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-cssmin',
+711 silly install resolved     description: 'Compress CSS files.',
+711 silly install resolved     version: '0.10.0',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-cssmin',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-cssmin.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-cssmin/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies: { chalk: '~0.4.0', 'clean-css': '~2.2.0', maxmin: '~0.2.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+711 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.6',
+711 silly install resolved        grunt: '~0.4.1' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'cssmin' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-cssmin@0.10.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+711 silly install resolved        size: 3746,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-cssmin/download/grunt-contrib-cssmin-0.10.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-cssmin@>=0.10.0 <0.11.0',
+711 silly install resolved     _npmVersion: '1.3.26',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers:
+711 silly install resolved      [ [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1402598995442,
+711 silly install resolved     _cnpm_publish_time: 1402598995442,
+711 silly install resolved     _shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-cssmin/download/grunt-contrib-cssmin-0.10.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-htmlmin',
+711 silly install resolved     description: 'Minify HTML',
+711 silly install resolved     version: '0.3.0',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-htmlmin' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { chalk: '~0.4.0',
+711 silly install resolved        'html-minifier': '~0.6.0',
+711 silly install resolved        'pretty-bytes': '~0.1.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.2',
+711 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.4',
+711 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.3.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'html', 'min', 'minify', 'compress' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-htmlmin/issues' },
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-htmlmin',
+711 silly install resolved     _id: 'grunt-contrib-htmlmin@0.3.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+711 silly install resolved        size: 2846,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-htmlmin/download/grunt-contrib-htmlmin-0.3.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-htmlmin@>=0.3.0 <0.4.0',
+711 silly install resolved     _npmVersion: '1.4.3',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1399269728492,
+711 silly install resolved     _cnpm_publish_time: 1399269728492,
+711 silly install resolved     _shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-htmlmin/download/grunt-contrib-htmlmin-0.3.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-jshint',
+711 silly install resolved     description: 'Validate files with JSHint.',
+711 silly install resolved     version: '0.10.0',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.8',
+711 silly install resolved        grunt: '~0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-jshint@0.10.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+711 silly install resolved        size: 6976,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-jshint/download/grunt-contrib-jshint-0.10.0.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-jshint@>=0.10.0 <0.11.0',
+711 silly install resolved     _npmVersion: '1.4.3',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1396444329529,
+711 silly install resolved     _cnpm_publish_time: 1396444329529,
+711 silly install resolved     _shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-jshint/download/grunt-contrib-jshint-0.10.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-imagemin',
+711 silly install resolved     description: 'Minify images',
+711 silly install resolved     version: '0.8.1',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-imagemin' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { async: '^0.9.0',
+711 silly install resolved        chalk: '^0.5.1',
+711 silly install resolved        imagemin: '^1.0.4',
+711 silly install resolved        'pretty-bytes': '^1.0.1' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '^0.4.5',
+711 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+711 silly install resolved        'grunt-contrib-internal': '^0.4.10',
+711 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1',
+711 silly install resolved        'time-grunt': '^1.0.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'gruntplugin',
+711 silly install resolved        'compress',
+711 silly install resolved        'gif',
+711 silly install resolved        'image',
+711 silly install resolved        'img',
+711 silly install resolved        'jpeg',
+711 silly install resolved        'jpg',
+711 silly install resolved        'minify',
+711 silly install resolved        'png' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+711 silly install resolved     _id: 'grunt-contrib-imagemin@0.8.1',
+711 silly install resolved     _shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+711 silly install resolved     _from: 'grunt-contrib-imagemin@>=0.8.0 <0.9.0',
+711 silly install resolved     _npmVersion: '1.4.9',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers:
+711 silly install resolved      [ [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+711 silly install resolved        size: 4403,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-imagemin/download/grunt-contrib-imagemin-0.8.1.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1409143448957,
+711 silly install resolved     _cnpm_publish_time: 1409143448957,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-imagemin/download/grunt-contrib-imagemin-0.8.1.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-sass',
+711 silly install resolved     description: 'Compile Sass to CSS',
+711 silly install resolved     version: '0.7.4',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-sass',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-sass' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { async: '^0.9.0',
+711 silly install resolved        chalk: '^0.5.1',
+711 silly install resolved        dargs: '^0.1.0',
+711 silly install resolved        which: '^1.0.5',
+711 silly install resolved        'win-spawn': '^2.0.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '^0.4.5',
+711 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+711 silly install resolved        'grunt-contrib-internal': '^0.4.10',
+711 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+711 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'gruntplugin',
+711 silly install resolved        'scss',
+711 silly install resolved        'sass',
+711 silly install resolved        'css',
+711 silly install resolved        'compile',
+711 silly install resolved        'preprocessor',
+711 silly install resolved        'style' ],
+711 silly install resolved     contributors: [ [Object] ],
+711 silly install resolved     gitHead: '54740001ee366d7e4a90df46a342a25a36ff0211',
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-sass/issues' },
+711 silly install resolved     _id: 'grunt-contrib-sass@0.7.4',
+711 silly install resolved     _shasum: '1de0f7c3bc40f15254e135777b5f094c921e9564',
+711 silly install resolved     _from: 'grunt-contrib-sass@>=0.7.3 <0.8.0',
+711 silly install resolved     _npmVersion: '1.4.14',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '1de0f7c3bc40f15254e135777b5f094c921e9564',
+711 silly install resolved        size: 6231,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-sass/download/grunt-contrib-sass-0.7.4.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1407590503434,
+711 silly install resolved     _cnpm_publish_time: 1407590503434,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-sass/download/grunt-contrib-sass-0.7.4.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-uglify',
+711 silly install resolved     description: 'Minify files with UglifyJS.',
+711 silly install resolved     version: '0.5.1',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-uglify',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-uglify.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-uglify/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { chalk: '^0.5.1',
+711 silly install resolved        lodash: '^2.4.1',
+711 silly install resolved        maxmin: '^0.2.0',
+711 silly install resolved        'uglify-js': '^2.4.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '^0.4.2',
+711 silly install resolved        'grunt-contrib-clean': '^0.5.0',
+711 silly install resolved        'grunt-contrib-internal': '^0.4.2',
+711 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+711 silly install resolved     gitHead: 'dfd721b5a5dabd4266e411d171a8670744f152ff',
+711 silly install resolved     _id: 'grunt-contrib-uglify@0.5.1',
+711 silly install resolved     _shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+711 silly install resolved     _from: 'grunt-contrib-uglify@>=0.5.1 <0.6.0',
+711 silly install resolved     _npmVersion: '2.0.0-alpha-5',
+711 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+711 silly install resolved     maintainers:
+711 silly install resolved      [ [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+711 silly install resolved        size: 8848,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-uglify/download/grunt-contrib-uglify-0.5.1.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1406315331827,
+711 silly install resolved     _cnpm_publish_time: 1406315331827,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-uglify/download/grunt-contrib-uglify-0.5.1.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-contrib-watch',
+711 silly install resolved     description: 'Run predefined tasks whenever watched file patterns are added, changed or deleted.',
+711 silly install resolved     version: '0.6.1',
+711 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-watch',
+711 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-watch.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-watch/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt nodeunit -v' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { gaze: '~0.5.1',
+711 silly install resolved        'tiny-lr-fork': '0.0.5',
+711 silly install resolved        lodash: '~2.4.1',
+711 silly install resolved        async: '~0.2.9' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.0',
+711 silly install resolved        'grunt-contrib-jshint': '~0.8.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3',
+711 silly install resolved        'grunt-contrib-internal': '~0.4.7',
+711 silly install resolved        'underscore.string': '~2.3.3' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'watch' ],
+711 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+711 silly install resolved     _id: 'grunt-contrib-watch@0.6.1',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+711 silly install resolved        size: 14012,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-contrib-watch/download/grunt-contrib-watch-0.6.1.tgz' },
+711 silly install resolved     _from: 'grunt-contrib-watch@>=0.6.1 <0.7.0',
+711 silly install resolved     _npmVersion: '1.4.4',
+711 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+711 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1395259817935,
+711 silly install resolved     _cnpm_publish_time: 1395259817935,
+711 silly install resolved     _shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-contrib-watch/download/grunt-contrib-watch-0.6.1.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-modernizr',
+711 silly install resolved     description: 'Build out a lean, mean Modernizr machine.',
+711 silly install resolved     version: '0.5.2',
+711 silly install resolved     homepage: 'https://github.com/doctyper/grunt-modernizr',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Richard Herrera',
+711 silly install resolved        email: 'rich@doctyper.com',
+711 silly install resolved        url: 'http://doctyper.com' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/doctyper/grunt-modernizr.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/doctyper/grunt-modernizr/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     main: 'grunt.js',
+711 silly install resolved     bin: { 'grunt-modernizr': 'bin/grunt-modernizr' },
+711 silly install resolved     engines: { node: '*' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { 'uglify-js': '1.3.3',
+711 silly install resolved        'promised-io': '0.3.x',
+711 silly install resolved        colors: '0.6.x',
+711 silly install resolved        request: '~2.27.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.2',
+711 silly install resolved        'grunt-contrib-jshint': '~0.7.0',
+711 silly install resolved        'grunt-contrib-nodeunit': '0.1.2',
+711 silly install resolved        'grunt-contrib-watch': '~0.3.1',
+711 silly install resolved        mocha: '>=1.6.0',
+711 silly install resolved        nexpect: '>=0.2.4' },
+711 silly install resolved     scripts: { test: 'node test/runner.js' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'modernizr' ],
+711 silly install resolved     _id: 'grunt-modernizr@0.5.2',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'e10e8e6d949b9acc59940a089232a5f210967173',
+711 silly install resolved        size: 68583,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-modernizr/download/grunt-modernizr-0.5.2.tgz' },
+711 silly install resolved     _from: 'grunt-modernizr@>=0.5.2 <0.6.0',
+711 silly install resolved     _npmVersion: '1.4.3',
+711 silly install resolved     _npmUser: { name: 'doctyper', email: 'rich@doctyper.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1394484451624,
+711 silly install resolved     _cnpm_publish_time: 1394484451624,
+711 silly install resolved     _shasum: 'e10e8e6d949b9acc59940a089232a5f210967173',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-modernizr/download/grunt-modernizr-0.5.2.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-mocha',
+711 silly install resolved     description: 'Grunt task for running client-side Mocha specs in PhantomJS',
+711 silly install resolved     version: '0.4.12',
+711 silly install resolved     homepage: 'https://github.com/kmiyashiro/grunt-mocha',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Kelly Miyashiro',
+711 silly install resolved        email: 'miyashiro.kelly@gmail.com',
+711 silly install resolved        url: 'http://non-diligent.com' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/kmiyashiro/grunt-mocha.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/kmiyashiro/grunt-mocha/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     main: 'Gruntfile.js',
+711 silly install resolved     engines: { node: '*' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { 'grunt-lib-phantomjs': '~0.4',
+711 silly install resolved        mocha: '1.21.5',
+711 silly install resolved        lodash: '~2.3.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4',
+711 silly install resolved        'grunt-contrib-connect': '~0.2',
+711 silly install resolved        'grunt-contrib-jshint': '~0.3' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'mocha', 'test', 'phantomjs' ],
+711 silly install resolved     files: [ 'growl', 'phantomjs', 'support', 'tasks' ],
+711 silly install resolved     contributors: [ [Object], [Object] ],
+711 silly install resolved     gitHead: '39d814e64a429318a22f8e7eefe3f83bb151187b',
+711 silly install resolved     _id: 'grunt-mocha@0.4.12',
+711 silly install resolved     _shasum: 'dd9bccfc84a2fc3594162ea64fe61af56b47f293',
+711 silly install resolved     _from: 'grunt-mocha@>=0.4.10 <0.5.0',
+711 silly install resolved     _npmVersion: '2.1.10',
+711 silly install resolved     _nodeVersion: '0.10.29',
+711 silly install resolved     _npmUser: { name: 'kmiyashiro', email: 'miyashiro.kelly@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'dd9bccfc84a2fc3594162ea64fe61af56b47f293',
+711 silly install resolved        size: 11656,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-mocha/download/grunt-mocha-0.4.12.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1425064188715,
+711 silly install resolved     _cnpm_publish_time: 1425064188715,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-mocha/download/grunt-mocha-0.4.12.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-rev',
+711 silly install resolved     description: 'Static file asset revisioning through content hashing',
+711 silly install resolved     version: '0.1.0',
+711 silly install resolved     homepage: 'https://github.com/cbas/grunt-rev',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sebastiaan Deckers',
+711 silly install resolved        email: 'seb@ninja.sg',
+711 silly install resolved        url: 'http://ninja.sg' },
+711 silly install resolved     repository: { type: 'git', url: 'git://github.com/cbas/grunt-rev.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/cbas/grunt-rev/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     main: 'Gruntfile.js',
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { 'grunt-contrib-copy': '0.4.0',
+711 silly install resolved        'grunt-contrib-jshint': '0.1.1rc6',
+711 silly install resolved        'grunt-contrib-clean': '0.4.0rc6',
+711 silly install resolved        'grunt-contrib-nodeunit': '0.1.2rc6',
+711 silly install resolved        grunt: '0.4.0rc6' },
+711 silly install resolved     keywords: [ 'gruntplugin' ],
+711 silly install resolved     readmeFilename: 'README.md',
+711 silly install resolved     _id: 'grunt-rev@0.1.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'b32427e7d842345839709343a58c387361694947',
+711 silly install resolved        size: 4196,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-rev/download/grunt-rev-0.1.0.tgz' },
+711 silly install resolved     _from: 'grunt-rev@>=0.1.0 <0.2.0',
+711 silly install resolved     _npmVersion: '1.2.10',
+711 silly install resolved     _npmUser: { name: 'seb', email: 'seb@ninja.sg' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1361497905801,
+711 silly install resolved     _cnpm_publish_time: 1361497905801,
+711 silly install resolved     _shasum: 'b32427e7d842345839709343a58c387361694947',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-rev/download/grunt-rev-0.1.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-newer',
+711 silly install resolved     description: 'Run Grunt tasks with only those source files modified since the last successful run.',
+711 silly install resolved     version: '0.7.0',
+711 silly install resolved     homepage: 'https://github.com/tschaub/grunt-newer',
+711 silly install resolved     author: { name: 'Tim Schaub', url: 'http://tschaub.net/' },
+711 silly install resolved     repository: { type: 'git', url: 'git://github.com/tschaub/grunt-newer.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/tschaub/grunt-newer/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     main: 'gruntfile.js',
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     scripts: { test: 'grunt test', start: 'grunt test watch' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '0.4.2',
+711 silly install resolved        'grunt-cli': '0.1.13',
+711 silly install resolved        'grunt-contrib-watch': '0.5.3',
+711 silly install resolved        'grunt-contrib-jshint': '0.8.0',
+711 silly install resolved        chai: '1.9.0',
+711 silly install resolved        'grunt-cafe-mocha': '0.1.11',
+711 silly install resolved        wrench: '1.5.7',
+711 silly install resolved        tmp: '0.0.23',
+711 silly install resolved        'grunt-contrib-clean': '0.5.0',
+711 silly install resolved        'mock-fs': '2.x' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+711 silly install resolved     keywords: [ 'gruntplugin', 'grunt', 'newer', 'files' ],
+711 silly install resolved     dependencies: { async: '0.2.10', rimraf: '2.2.6' },
+711 silly install resolved     _id: 'grunt-newer@0.7.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+711 silly install resolved        size: 13027,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-newer/download/grunt-newer-0.7.0.tgz' },
+711 silly install resolved     _from: 'grunt-newer@>=0.7.0 <0.8.0',
+711 silly install resolved     _npmVersion: '1.3.17',
+711 silly install resolved     _npmUser: { name: 'tschaub', email: 'tim.schaub@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1394916581693,
+711 silly install resolved     _cnpm_publish_time: 1394916581693,
+711 silly install resolved     _shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-newer/download/grunt-newer-0.7.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-svgmin',
+711 silly install resolved     version: '0.4.0',
+711 silly install resolved     description: 'Minify SVG',
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'gruntplugin',
+711 silly install resolved        'svg',
+711 silly install resolved        'vector',
+711 silly install resolved        'graphic',
+711 silly install resolved        'image',
+711 silly install resolved        'optimize',
+711 silly install resolved        'minify' ],
+711 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-svgmin',
+711 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-svgmin/issues' },
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sindre Sorhus',
+711 silly install resolved        email: 'sindresorhus@gmail.com',
+711 silly install resolved        url: 'http://sindresorhus.com' },
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/sindresorhus/grunt-svgmin.git' },
+711 silly install resolved     scripts: { test: 'grunt' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { svgo: '~0.4.1',
+711 silly install resolved        chalk: '~0.4.0',
+711 silly install resolved        'each-async': '~0.1.2',
+711 silly install resolved        'pretty-bytes': '~0.1.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.1',
+711 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+711 silly install resolved        'grunt-simple-mocha': '~0.4.0' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     licenses: { type: 'MIT' },
+711 silly install resolved     _id: 'grunt-svgmin@0.4.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+711 silly install resolved        size: 2484,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-svgmin/download/grunt-svgmin-0.4.0.tgz' },
+711 silly install resolved     _from: 'grunt-svgmin@>=0.4.0 <0.5.0',
+711 silly install resolved     _npmVersion: '1.4.4',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1393885316427,
+711 silly install resolved     _cnpm_publish_time: 1393885316427,
+711 silly install resolved     _shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-svgmin/download/grunt-svgmin-0.4.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-wiredep',
+711 silly install resolved     description: 'Inject your Bower dependencies right into your HTML from Grunt.',
+711 silly install resolved     version: '1.9.0',
+711 silly install resolved     homepage: 'http://stephenplusplus.github.io/grunt-wiredep',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Stephen Sawchuk',
+711 silly install resolved        email: 'sawchuk@gmail.com',
+711 silly install resolved        url: 'http://github.com/stephenplusplus' },
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'gruntplugin',
+711 silly install resolved        'html',
+711 silly install resolved        'grunt',
+711 silly install resolved        'bower',
+711 silly install resolved        'package',
+711 silly install resolved        'wiredep',
+711 silly install resolved        'dependency',
+711 silly install resolved        'component',
+711 silly install resolved        'postinstall' ],
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'https://github.com/stephenplusplus/grunt-wiredep' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+711 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+711 silly install resolved     dependencies: { wiredep: '^1.5.0' },
+711 silly install resolved     gitHead: '3368b8ae11589eb6d6d07368ac5d1473bf7d5546',
+711 silly install resolved     bugs: { url: 'https://github.com/stephenplusplus/grunt-wiredep/issues' },
+711 silly install resolved     _id: 'grunt-wiredep@1.9.0',
+711 silly install resolved     scripts: {},
+711 silly install resolved     _shasum: '9bed278f4c05daf41db1afcd03d6f559a6dad0ce',
+711 silly install resolved     _from: 'grunt-wiredep@>=1.7.0 <2.0.0',
+711 silly install resolved     _npmVersion: '1.4.23',
+711 silly install resolved     _npmUser: { name: 'stephenplusplus', email: 'sawchuk@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '9bed278f4c05daf41db1afcd03d6f559a6dad0ce',
+711 silly install resolved        size: 2933,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-wiredep/download/grunt-wiredep-1.9.0.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1410025152534,
+711 silly install resolved     _cnpm_publish_time: 1410025152534,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-wiredep/download/grunt-wiredep-1.9.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'jshint-stylish',
+711 silly install resolved     version: '0.4.0',
+711 silly install resolved     description: 'Stylish reporter for JSHint',
+711 silly install resolved     license: 'MIT',
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/sindresorhus/jshint-stylish' },
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sindre Sorhus',
+711 silly install resolved        email: 'sindresorhus@gmail.com',
+711 silly install resolved        url: 'http://sindresorhus.com' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     scripts: { test: 'mocha' },
+711 silly install resolved     files: [ 'index.js', 'stylish.js' ],
+711 silly install resolved     keywords: [ 'jshint', 'reporter', 'lint', 'validate', 'stylish', 'elegant' ],
+711 silly install resolved     dependencies:
+711 silly install resolved      { chalk: '^0.5.1',
+711 silly install resolved        'log-symbols': '^1.0.0',
+711 silly install resolved        'text-table': '^0.2.0' },
+711 silly install resolved     devDependencies: { mocha: '*', jshint: '^2' },
+711 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/jshint-stylish/issues' },
+711 silly install resolved     homepage: 'https://github.com/sindresorhus/jshint-stylish',
+711 silly install resolved     _id: 'jshint-stylish@0.4.0',
+711 silly install resolved     _shasum: 'd785caf657926768145ed070f70f0f1ec536f8c6',
+711 silly install resolved     _from: 'jshint-stylish@>=0.4.0 <0.5.0',
+711 silly install resolved     _npmVersion: '1.4.9',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'd785caf657926768145ed070f70f0f1ec536f8c6',
+711 silly install resolved        size: 1617,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/jshint-stylish/download/jshint-stylish-0.4.0.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1404955291457,
+711 silly install resolved     _cnpm_publish_time: 1404955291457,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/jshint-stylish/download/jshint-stylish-0.4.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt-usemin',
+711 silly install resolved     version: '2.6.2',
+711 silly install resolved     license: 'BSD-2-Clause',
+711 silly install resolved     author: { name: 'The Yeoman Team' },
+711 silly install resolved     description: 'Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views).',
+711 silly install resolved     keywords: [ 'gruntplugin', 'usemin', 'yeoman', 'html', 'css', 'optimize' ],
+711 silly install resolved     homepage: 'https://github.com/yeoman/grunt-usemin',
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'https://github.com/yeoman/grunt-usemin.git' },
+711 silly install resolved     bugs: { url: 'https://github.com/yeoman/grunt-usemin/issues' },
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     dependencies: { chalk: '~0.5.1', debug: '~2.1.0', lodash: '~2.4.1' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '~0.4.5',
+711 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+711 silly install resolved        'grunt-jscs': '~0.8.0',
+711 silly install resolved        'grunt-mocha-cli': '~1.10.0',
+711 silly install resolved        mkdirp: '~0.5.0',
+711 silly install resolved        rimraf: '~2.2.8' },
+711 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     files: [ 'lib', 'tasks' ],
+711 silly install resolved     gitHead: '89b2c8b3c1c4e184e878c1bc1414b4f2c828a839',
+711 silly install resolved     _id: 'grunt-usemin@2.6.2',
+711 silly install resolved     _shasum: '2b136ba02264a9a91d94d424c8d3726bd88db7da',
+711 silly install resolved     _from: 'grunt-usemin@>=2.3.0 <3.0.0',
+711 silly install resolved     _npmVersion: '2.1.5',
+711 silly install resolved     _nodeVersion: '0.10.32',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers:
+711 silly install resolved      [ [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object],
+711 silly install resolved        [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '2b136ba02264a9a91d94d424c8d3726bd88db7da',
+711 silly install resolved        size: 17322,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt-usemin/download/grunt-usemin-2.6.2.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1416124489908,
+711 silly install resolved     _cnpm_publish_time: 1416124489908,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt-usemin/download/grunt-usemin-2.6.2.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'time-grunt',
+711 silly install resolved     version: '0.4.0',
+711 silly install resolved     description: 'Displays the elapsed execution time of grunt tasks when done',
+711 silly install resolved     keywords: [ 'grunt', 'tasks', 'measure', 'time', 'profile' ],
+711 silly install resolved     license: 'MIT',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sindre Sorhus',
+711 silly install resolved        email: 'sindresorhus@gmail.com',
+711 silly install resolved        url: 'http://sindresorhus.com' },
+711 silly install resolved     files: [ 'time-grunt.js' ],
+711 silly install resolved     main: 'time-grunt.js',
+711 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/time-grunt' },
+711 silly install resolved     scripts: { test: 'grunt && grunt sigint' },
+711 silly install resolved     dependencies:
+711 silly install resolved      { chalk: '^0.5.1',
+711 silly install resolved        'date-time': '^0.1.0',
+711 silly install resolved        figures: '^1.0.0',
+711 silly install resolved        hooker: '^0.2.3',
+711 silly install resolved        'pretty-ms': '^0.2.2',
+711 silly install resolved        'text-table': '^0.2.0' },
+711 silly install resolved     devDependencies: { grunt: '^0.4.2' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/time-grunt/issues' },
+711 silly install resolved     homepage: 'https://github.com/sindresorhus/time-grunt',
+711 silly install resolved     _id: 'time-grunt@0.4.0',
+711 silly install resolved     _shasum: '98af578bd5c656f4e8b6e686f333d16db9e0d28b',
+711 silly install resolved     _from: 'time-grunt@>=0.4.0 <0.5.0',
+711 silly install resolved     _npmVersion: '1.4.9',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '98af578bd5c656f4e8b6e686f333d16db9e0d28b',
+711 silly install resolved        size: 2239,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/time-grunt/download/time-grunt-0.4.0.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1404954308402,
+711 silly install resolved     _cnpm_publish_time: 1404954308402,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/time-grunt/download/time-grunt-0.4.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'load-grunt-tasks',
+711 silly install resolved     version: '0.4.0',
+711 silly install resolved     description: 'Load multiple grunt tasks using globbing patterns',
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'grunt',
+711 silly install resolved        'load',
+711 silly install resolved        'require',
+711 silly install resolved        'tasks',
+711 silly install resolved        'glob',
+711 silly install resolved        'pattern',
+711 silly install resolved        'match',
+711 silly install resolved        'matchdep',
+711 silly install resolved        'dependencies' ],
+711 silly install resolved     license: 'MIT',
+711 silly install resolved     author:
+711 silly install resolved      { name: 'Sindre Sorhus',
+711 silly install resolved        email: 'sindresorhus@gmail.com',
+711 silly install resolved        url: 'http://sindresorhus.com' },
+711 silly install resolved     files: [ 'load-grunt-tasks.js' ],
+711 silly install resolved     main: 'load-grunt-tasks',
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'git://github.com/sindresorhus/load-grunt-tasks' },
+711 silly install resolved     scripts: { test: 'grunt' },
+711 silly install resolved     dependencies: { 'findup-sync': '^0.1.2', multimatch: '^0.1.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { grunt: '^0.4.2',
+711 silly install resolved        'grunt-cli': '^0.1.12',
+711 silly install resolved        'grunt-svgmin': '^0.3.0' },
+711 silly install resolved     engines: { node: '>=0.10.0' },
+711 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/load-grunt-tasks/issues' },
+711 silly install resolved     homepage: 'https://github.com/sindresorhus/load-grunt-tasks',
+711 silly install resolved     _id: 'load-grunt-tasks@0.4.0',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'f824663ffba251b574efda5a935afacefe0a95f4',
+711 silly install resolved        size: 1721,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/load-grunt-tasks/download/load-grunt-tasks-0.4.0.tgz' },
+711 silly install resolved     _from: 'load-grunt-tasks@>=0.4.0 <0.5.0',
+711 silly install resolved     _npmVersion: '1.4.3',
+711 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1393358540375,
+711 silly install resolved     _cnpm_publish_time: 1393358540375,
+711 silly install resolved     _shasum: 'f824663ffba251b574efda5a935afacefe0a95f4',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/load-grunt-tasks/download/load-grunt-tasks-0.4.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { name: 'grunt',
+711 silly install resolved     description: 'The JavaScript Task Runner',
+711 silly install resolved     version: '0.4.5',
+711 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+711 silly install resolved     homepage: 'http://gruntjs.com/',
+711 silly install resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+711 silly install resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+711 silly install resolved     licenses: [ [Object] ],
+711 silly install resolved     main: 'lib/grunt',
+711 silly install resolved     scripts: { test: 'grunt test' },
+711 silly install resolved     engines: { node: '>= 0.8.0' },
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'task',
+711 silly install resolved        'async',
+711 silly install resolved        'cli',
+711 silly install resolved        'minify',
+711 silly install resolved        'uglify',
+711 silly install resolved        'build',
+711 silly install resolved        'lodash',
+711 silly install resolved        'unit',
+711 silly install resolved        'test',
+711 silly install resolved        'qunit',
+711 silly install resolved        'nodeunit',
+711 silly install resolved        'server',
+711 silly install resolved        'init',
+711 silly install resolved        'scaffold',
+711 silly install resolved        'make',
+711 silly install resolved        'jake',
+711 silly install resolved        'tool' ],
+711 silly install resolved     dependencies:
+711 silly install resolved      { async: '~0.1.22',
+711 silly install resolved        'coffee-script': '~1.3.3',
+711 silly install resolved        colors: '~0.6.2',
+711 silly install resolved        dateformat: '1.0.2-1.2.3',
+711 silly install resolved        eventemitter2: '~0.4.13',
+711 silly install resolved        'findup-sync': '~0.1.2',
+711 silly install resolved        glob: '~3.1.21',
+711 silly install resolved        hooker: '~0.2.3',
+711 silly install resolved        'iconv-lite': '~0.2.11',
+711 silly install resolved        minimatch: '~0.2.12',
+711 silly install resolved        nopt: '~1.0.10',
+711 silly install resolved        rimraf: '~2.2.8',
+711 silly install resolved        lodash: '~0.9.2',
+711 silly install resolved        'underscore.string': '~2.2.1',
+711 silly install resolved        which: '~1.0.5',
+711 silly install resolved        'js-yaml': '~2.0.5',
+711 silly install resolved        exit: '~0.1.1',
+711 silly install resolved        getobject: '~0.1.0',
+711 silly install resolved        'grunt-legacy-util': '~0.2.0',
+711 silly install resolved        'grunt-legacy-log': '~0.1.0' },
+711 silly install resolved     devDependencies:
+711 silly install resolved      { temporary: '~0.0.4',
+711 silly install resolved        'grunt-contrib-jshint': '~0.6.4',
+711 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+711 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+711 silly install resolved        difflet: '~0.2.3',
+711 silly install resolved        semver: '2.1.0',
+711 silly install resolved        shelljs: '~0.2.5' },
+711 silly install resolved     _id: 'grunt@0.4.5',
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+711 silly install resolved        size: 22992,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/grunt/download/grunt-0.4.5.tgz' },
+711 silly install resolved     _from: 'grunt@>=0.4.5 <0.5.0',
+711 silly install resolved     _npmVersion: '1.4.4',
+711 silly install resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+711 silly install resolved     maintainers: [ [Object], [Object] ],
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1399916709046,
+711 silly install resolved     _cnpm_publish_time: 1399916709046,
+711 silly install resolved     _shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/grunt/download/grunt-0.4.5.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' },
+711 silly install resolved   { author: { name: 'The H5BP Team' },
+711 silly install resolved     bugs: { url: 'https://github.com/h5bp/server-configs-apache/issues' },
+711 silly install resolved     description: 'Boilerplate configurations for the Apache HTTP server',
+711 silly install resolved     devDependencies: { mocha: '^2.1.0' },
+711 silly install resolved     files: [ 'dist' ],
+711 silly install resolved     homepage: 'https://github.com/h5bp/server-configs-apache',
+711 silly install resolved     keywords:
+711 silly install resolved      [ 'apache',
+711 silly install resolved        'boilerplate',
+711 silly install resolved        'configs',
+711 silly install resolved        'configurations',
+711 silly install resolved        'h5bp',
+711 silly install resolved        'server',
+711 silly install resolved        'template' ],
+711 silly install resolved     license:
+711 silly install resolved      { type: 'MIT',
+711 silly install resolved        url: 'https://github.com/h5bp/server-configs-apache/blob/master/LICENSE.md' },
+711 silly install resolved     name: 'apache-server-configs',
+711 silly install resolved     repository:
+711 silly install resolved      { type: 'git',
+711 silly install resolved        url: 'https://github.com/h5bp/server-configs-apache' },
+711 silly install resolved     scripts:
+711 silly install resolved      { build: 'bin/build/build.sh',
+711 silly install resolved        test: 'npm run build && mocha --reporter spec --timeout 5000 test/test_suite.js' },
+711 silly install resolved     version: '2.14.0',
+711 silly install resolved     gitHead: 'a2a6faf032d1d07788a583308c99c329978704c3',
+711 silly install resolved     _id: 'apache-server-configs@2.14.0',
+711 silly install resolved     _shasum: 'c68363fb7532b19934a87855a93ca442710eb7a5',
+711 silly install resolved     _from: 'apache-server-configs@>=2.7.1 <3.0.0',
+711 silly install resolved     _npmVersion: '2.7.5',
+711 silly install resolved     _nodeVersion: '0.12.0',
+711 silly install resolved     _npmUser: { name: 'alrra', email: 'alrraa@gmail.com' },
+711 silly install resolved     maintainers: [ [Object] ],
+711 silly install resolved     dist:
+711 silly install resolved      { shasum: 'c68363fb7532b19934a87855a93ca442710eb7a5',
+711 silly install resolved        size: 14597,
+711 silly install resolved        noattachment: false,
+711 silly install resolved        tarball: 'http://registry.npm.taobao.org/apache-server-configs/download/apache-server-configs-2.14.0.tgz' },
+711 silly install resolved     directories: {},
+711 silly install resolved     publish_time: 1428439894162,
+711 silly install resolved     _cnpm_publish_time: 1428439894162,
+711 silly install resolved     _resolved: 'https://registry.npm.taobao.org/apache-server-configs/download/apache-server-configs-2.14.0.tgz',
+711 silly install resolved     readme: 'ERROR: No README data found!' } ]
+712 info install grunt-concurrent@0.5.0 into /Users/luxiangrong/workspace/web/mengdongfang
+713 info install grunt-autoprefixer@1.0.1 into /Users/luxiangrong/workspace/web/mengdongfang
+714 info install grunt-contrib-connect@0.8.0 into /Users/luxiangrong/workspace/web/mengdongfang
+715 info install grunt-contrib-clean@0.6.0 into /Users/luxiangrong/workspace/web/mengdongfang
+716 info install grunt-contrib-concat@0.5.1 into /Users/luxiangrong/workspace/web/mengdongfang
+717 info install grunt-contrib-copy@0.5.0 into /Users/luxiangrong/workspace/web/mengdongfang
+718 info install grunt-contrib-cssmin@0.10.0 into /Users/luxiangrong/workspace/web/mengdongfang
+719 info install grunt-contrib-htmlmin@0.3.0 into /Users/luxiangrong/workspace/web/mengdongfang
+720 info install grunt-contrib-jshint@0.10.0 into /Users/luxiangrong/workspace/web/mengdongfang
+721 info install grunt-contrib-imagemin@0.8.1 into /Users/luxiangrong/workspace/web/mengdongfang
+722 info install grunt-contrib-sass@0.7.4 into /Users/luxiangrong/workspace/web/mengdongfang
+723 info install grunt-contrib-uglify@0.5.1 into /Users/luxiangrong/workspace/web/mengdongfang
+724 info install grunt-contrib-watch@0.6.1 into /Users/luxiangrong/workspace/web/mengdongfang
+725 info install grunt-modernizr@0.5.2 into /Users/luxiangrong/workspace/web/mengdongfang
+726 info install grunt-mocha@0.4.12 into /Users/luxiangrong/workspace/web/mengdongfang
+727 info install grunt-rev@0.1.0 into /Users/luxiangrong/workspace/web/mengdongfang
+728 info install grunt-newer@0.7.0 into /Users/luxiangrong/workspace/web/mengdongfang
+729 info install grunt-svgmin@0.4.0 into /Users/luxiangrong/workspace/web/mengdongfang
+730 info install grunt-wiredep@1.9.0 into /Users/luxiangrong/workspace/web/mengdongfang
+731 info install jshint-stylish@0.4.0 into /Users/luxiangrong/workspace/web/mengdongfang
+732 info install grunt-usemin@2.6.2 into /Users/luxiangrong/workspace/web/mengdongfang
+733 info install time-grunt@0.4.0 into /Users/luxiangrong/workspace/web/mengdongfang
+734 info install load-grunt-tasks@0.4.0 into /Users/luxiangrong/workspace/web/mengdongfang
+735 info install grunt@0.4.5 into /Users/luxiangrong/workspace/web/mengdongfang
+736 info install apache-server-configs@2.14.0 into /Users/luxiangrong/workspace/web/mengdongfang
+737 info installOne grunt-concurrent@0.5.0
+738 verbose installOne of grunt-concurrent to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+739 info installOne grunt-autoprefixer@1.0.1
+740 verbose installOne of grunt-autoprefixer to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+741 info installOne grunt-contrib-connect@0.8.0
+742 verbose installOne of grunt-contrib-connect to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+743 info installOne grunt-contrib-clean@0.6.0
+744 verbose installOne of grunt-contrib-clean to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+745 info installOne grunt-contrib-concat@0.5.1
+746 verbose installOne of grunt-contrib-concat to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+747 info installOne grunt-contrib-copy@0.5.0
+748 verbose installOne of grunt-contrib-copy to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+749 info installOne grunt-contrib-cssmin@0.10.0
+750 verbose installOne of grunt-contrib-cssmin to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+751 info installOne grunt-contrib-htmlmin@0.3.0
+752 verbose installOne of grunt-contrib-htmlmin to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+753 info installOne grunt-contrib-jshint@0.10.0
+754 verbose installOne of grunt-contrib-jshint to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+755 info installOne grunt-contrib-imagemin@0.8.1
+756 verbose installOne of grunt-contrib-imagemin to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+757 info installOne grunt-contrib-sass@0.7.4
+758 verbose installOne of grunt-contrib-sass to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+759 info installOne grunt-contrib-uglify@0.5.1
+760 verbose installOne of grunt-contrib-uglify to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+761 info installOne grunt-contrib-watch@0.6.1
+762 verbose installOne of grunt-contrib-watch to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+763 info installOne grunt-modernizr@0.5.2
+764 verbose installOne of grunt-modernizr to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+765 info installOne grunt-mocha@0.4.12
+766 verbose installOne of grunt-mocha to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+767 info installOne grunt-rev@0.1.0
+768 verbose installOne of grunt-rev to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+769 info installOne grunt-newer@0.7.0
+770 verbose installOne of grunt-newer to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+771 info installOne grunt-svgmin@0.4.0
+772 verbose installOne of grunt-svgmin to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+773 info installOne grunt-wiredep@1.9.0
+774 verbose installOne of grunt-wiredep to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+775 info installOne jshint-stylish@0.4.0
+776 verbose installOne of jshint-stylish to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+777 info installOne grunt-usemin@2.6.2
+778 verbose installOne of grunt-usemin to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+779 info installOne time-grunt@0.4.0
+780 verbose installOne of time-grunt to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+781 info installOne load-grunt-tasks@0.4.0
+782 verbose installOne of load-grunt-tasks to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+783 info installOne grunt@0.4.5
+784 verbose installOne of grunt to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+785 info installOne apache-server-configs@2.14.0
+786 verbose installOne of apache-server-configs to /Users/luxiangrong/workspace/web/mengdongfang not in flight; installing
+787 warn locking Error: EACCES, open '/Users/luxiangrong/.npm/.cache_cnpm/_locks/grunt-concurrent-c8c0deca69b1a39c.lock'
+787 warn locking  /Users/luxiangrong/.npm/.cache_cnpm/_locks/grunt-concurrent-c8c0deca69b1a39c.lock failed { [Error: EACCES, open '/Users/luxiangrong/.npm/.cache_cnpm/_locks/grunt-concurrent-c8c0deca69b1a39c.lock']
+787 warn locking   errno: 3,
+787 warn locking   code: 'EACCES',
+787 warn locking   path: '/Users/luxiangrong/.npm/.cache_cnpm/_locks/grunt-concurrent-c8c0deca69b1a39c.lock' }
+788 verbose stack Error: Attempt to unlock /Users/luxiangrong/workspace/web/mengdongfang/node_modules/grunt-concurrent, which hasn't been locked
+788 verbose stack     at unlock (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/utils/locker.js:66:11)
+788 verbose stack     at cb (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/install.js:929:5)
+788 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/install.js:933:20
+788 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/utils/locker.js:40:9
+788 verbose stack     at cb (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+788 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+788 verbose stack     at Object.oncomplete (fs.js:108:15)
+789 verbose cwd /Users/luxiangrong/workspace/web/mengdongfang
+790 error Darwin 14.3.0
+791 error argv "node" "/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/Users/luxiangrong/.cnpmrc" "--disturl=https://npm.taobao.org/dist" "--cache=/Users/luxiangrong/.npm/.cache_cnpm" "--registry=https://registry.npm.taobao.org" "install"
+792 error node v0.10.36
+793 error npm  v2.1.18
+794 error Attempt to unlock /Users/luxiangrong/workspace/web/mengdongfang/node_modules/grunt-concurrent, which hasn't been locked
+795 error If you need help, you may report this error at:
+795 error     <http://github.com/npm/npm/issues>
+796 verbose exit [ 1, true ]

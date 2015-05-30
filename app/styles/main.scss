@@ -1,0 +1,360 @@
+$font-family-sans-serif: "Helvetica Neue",
+Helvetica,
+"Hiragino Sans GB",
+"Hiragino Sans GB W3",
+"Microsoft YaHei",
+Arial,
+sans-serif !default;
+$font-family-serif: Georgia,
+"Times New Roman",
+Times,
+"SimSun" serif !default;
+
+
+// bower:scss
+// endbower
+
+
+/**
+ * mix
+ *
+ */
+// 元素水平方向和垂直方向居中显示。
+@mixin middle-and-center($width:0px, $height:0px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -($width / 2);
+    margin-top: -($height / 2);
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: alpha(opacity=$opacity-ie);
+}
+
+html.fsvs {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+html.fsvs #fsvs-body {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+html.fsvs #fsvs-body > * {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    @media(min-width: 1200px) {
+        width: 1200px;
+    }
+}
+
+// //页面导航样式
+.side-nav-wrap {
+    position: fixed;
+    left: 85px;
+    top: 50%;
+    margin-top: -200px;
+    z-index: 1000;
+    .side-nav {
+        margin-left: 0;
+        padding-left: 0;
+        list-style: none;
+        li {
+            text-align: center;
+            width: 1em;
+            border-bottom: 1px solid #FFFFFF;
+            margin: 0px auto;
+            padding: 10px 2px 5px;
+            padding-bottom: 10px;
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            &.active {
+                a {
+                    color: #FFFCA8;
+                }
+            }
+        }
+    }
+    .directive {
+        position: absolute;
+        left: 50px;
+        top: 0px;
+    }
+}
+
+.slide {
+    position: relative;
+}
+
+//分屏页面样式
+.slide-1 {
+    background: url(../images/bg01.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    .floating {
+        transition: margin 1s 1s;
+        transform: translate3d(0px, 0px, 0px);
+        &.floating-1 {
+            @include middle-and-center(59px, 61px);
+            transition-duration: 1.2s;
+        }
+        &.floating-2 {
+            @include middle-and-center(743px, 650px);
+            transform: scale(0.3);
+            transition: all 1s 0.6s;
+            z-index: 10;
+        }
+        &.floating-3 {
+            @include middle-and-center(97px, 51px);
+            transition-duration: 1s;
+        }
+        &.floating-4 {
+            @include middle-and-center(110px, 57px);
+            transition-duration: 1.2s;
+        }
+        &.floating-5 {
+            @include middle-and-center(99px, 60px);
+            transition-property: margin, z-index;
+            transition-duration: 1.5s;
+            z-index: 0;
+        }
+        &.floating-6 {
+            @include middle-and-center(106px, 137px);
+            transition-duration: 0.9s;
+        }
+        &.floating-7 {
+            @include middle-and-center(122px, 126px);
+            transition-duration: 1.5s;
+        }
+        &.floating-8 {
+            @include middle-and-center(36px, 30px);
+            transition-duration: 1.2s;
+        }
+        &.floating-9 {
+            @include middle-and-center(51px, 35px);
+            transition-duration: 1.7s;
+        }
+    }
+    &.active-slide {
+        .floating {
+            &.floating-1 {
+                margin-left: -442px;
+                margin-top: -70px;
+            }
+            &.floating-2 {
+               transform: scale(1);
+            }
+            &.floating-3 {
+                margin-left: -452px;
+                margin-top: 110px;
+            }
+            &.floating-4 {
+                margin-left: -392px;
+                margin-top: 240px;
+            }
+            &.floating-5 {
+                margin-left: 100px;
+                margin-top: 255px;
+                z-index: 10;
+            }
+            &.floating-6 {
+                margin-left: 272px;
+                margin-top: 160px;
+            }
+            &.floating-7 {
+                margin-left: 335px;
+                margin-top: 0px;
+            }
+            &.floating-8 {
+                margin-left: 400px;
+                margin-top: -190px;
+            }
+            &.floating-9 {
+                margin-left: -250px;
+                margin-top: -250px;
+            }
+        }
+    }
+}
+
+.slide-2 {
+    background: url(../images/bg02.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    .floating {
+        transition: opacity 1s 0.5s;
+        transform: translate3d(0px, 0px, 0px);
+        @include opacity(0);
+        &.floating-10 {
+            @include middle-and-center(1040px, 719px);
+            transition-duration: 1s;
+        }
+        &.floating-11 {
+            @include middle-and-center(129px, 93px);
+            transition-duration: 1s;
+            transition-delay: 1.5s;
+            margin-left: 290px;
+            margin-top: -15px;
+        }
+        &.floating-12 {
+          @include middle-and-center(332px, 110px);
+          transition-delay: 2s;
+          margin-left: -108px;
+          margin-top: -285px;
+        }
+        &.floating-13 {
+          @include middle-and-center(0px, 0px);
+          transition-delay: 2.5s;
+          width: 480px;
+          margin-left: -84px;
+          margin-top: -196px;
+          color: #ffffff;
+          font-size: 12px;
+        }
+    }
+    &.active-slide {
+        .floating {
+            &.floating-10, &.floating-11, &.floating-12, &.floating-13 {
+                @include opacity(1);
+            }
+            &.floating-12 {
+                
+            }
+            &.floating-13 {
+                
+            }
+        }
+    }
+}
+
+.slide-3 {
+    background: url(../images/bg03.jpg) no-repeat center center;
+    background-size: 100% 100%;
+
+}
+
+.slide-4 {
+    background: url(../images/bg04.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    .mask {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: url(../images/mask.png) no-repeat center center;
+      background-size: 100% 100%;
+    }
+    .content {
+       width: 573px;
+       height: 613px;
+       background: url(../images/bg05.png) no-repeat center top;
+       position: absolute;
+       @include middle-and-center(573px, 613px);
+       color: #444444;
+       h3 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: normal;
+        padding-right: 80px;
+        margin-top: 50px;
+       }
+       p {
+        font-size: 12px;
+        padding: 0 110px 0 80px;
+        line-height: 2;
+       }
+    }
+    .nav {
+      position: absolute;
+      width: 428px;
+      left: 50%;
+      top: 50%;
+      margin-left: -234px;
+      margin-top: 220px;
+      padding-left: 0;
+      list-style: none;
+      text-align: center;
+      li {
+        float: left;
+        width: 20%;
+        display: none;
+        a {
+          color: #ffffff;
+          font-size: 12px;
+          text-decoration: none;
+        }
+      }
+    }
+    .footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 106px;
+      line-height: 106px;
+      background-color: #222222;
+      color: #BBBBBB;
+        font-size: 12px;
+      .col-6 {
+        float: left;
+        width: 50%;
+      }
+      .right {
+        text-align: right;
+      }
+      .logo {
+        margin-left: 80px;
+        border-right: 1px solid #72777c;
+        padding-right: 20px;
+        vertical-align: middle;
+      }
+      .author {
+        color: #BBBBBB;
+        font-size: 12px;
+        margin-left: 20px;
+      }
+      .copyright {
+        line-height: 2;
+        float: right;
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-left: 1px solid #72777c;
+        text-align: left;
+        padding-right: 80px;
+      }
+      .icon-contact {
+        margin-right: 10px;
+        margin-top: 40px;
+      }
+    }
+}
