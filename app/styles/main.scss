@@ -9,16 +9,13 @@ $font-family-serif: Georgia,
 "Times New Roman",
 Times,
 "SimSun" serif !default;
-
-
 // bower:scss
 // endbower
-
-
 /**
  * mix
  *
  */
+
 // 元素水平方向和垂直方向居中显示。
 @mixin middle-and-center($width:0px, $height:0px) {
     position: absolute;
@@ -29,10 +26,10 @@ Times,
 }
 
 @mixin opacity($opacity) {
-  opacity: $opacity;
-  // IE8 filter
-  $opacity-ie: ($opacity * 100);
-  filter: alpha(opacity=$opacity-ie);
+    opacity: $opacity;
+    // IE8 filter
+    $opacity-ie: ($opacity * 100);
+    filter: alpha(opacity=$opacity-ie);
 }
 
 html.fsvs {
@@ -64,7 +61,7 @@ html.fsvs #fsvs-body > * {
 }
 
 body {
-  font-family: $font-family-sans-serif;
+    font-family: $font-family-sans-serif;
 }
 
 .container {
@@ -110,6 +107,13 @@ body {
         left: 50px;
         top: 0px;
     }
+}
+
+.logo {
+    position: absolute;
+    left: 55px;
+    top: 50px;
+    z-index: 30;
 }
 
 .slide {
@@ -171,7 +175,7 @@ body {
                 margin-top: -70px;
             }
             &.floating-2 {
-               transform: scale(1);
+                transform: scale(1);
             }
             &.floating-3 {
                 margin-left: -452px;
@@ -225,19 +229,19 @@ body {
             margin-top: -15px;
         }
         &.floating-12 {
-          @include middle-and-center(332px, 110px);
-          transition-delay: 2s;
-          margin-left: -108px;
-          margin-top: -285px;
+            @include middle-and-center(332px, 110px);
+            transition-delay: 2s;
+            margin-left: -108px;
+            margin-top: -285px;
         }
         &.floating-13 {
-          @include middle-and-center(0px, 0px);
-          transition-delay: 2.5s;
-          width: 480px;
-          margin-left: -84px;
-          margin-top: -196px;
-          color: #ffffff;
-          font-size: 12px;
+            @include middle-and-center(0px, 0px);
+            transition-delay: 2.5s;
+            width: 480px;
+            margin-left: -84px;
+            margin-top: -196px;
+            color: #ffffff;
+            font-size: 12px;
         }
     }
     &.active-slide {
@@ -245,12 +249,8 @@ body {
             &.floating-10, &.floating-11, &.floating-12, &.floating-13 {
                 @include opacity(1);
             }
-            &.floating-12 {
-                
-            }
-            &.floating-13 {
-                
-            }
+            &.floating-12 {}
+            &.floating-13 {}
         }
     }
 }
@@ -258,103 +258,174 @@ body {
 .slide-3 {
     background: url(../images/bg03.jpg) no-repeat center center;
     background-size: 100% 100%;
-
+    video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background: url('../images/bg03.jpg') no-repeat;
+        background-size: cover;
+    }
+    .pic-wrap {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.68);
+        display: none;
+        .pic {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 710px;
+            height: 444px;
+            margin-left: -355px;
+            margin-top: -222px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .nav {
+        @include middle-and-center(500px, 100px);
+        top: auto;
+        bottom: 100px;
+        margin-top: 0;
+        width: 520px;
+        height: 100px;
+        list-style: none;
+        > li {
+            float: left;
+            width: 25%;
+            a {
+                display: block;
+                color: #ffffff;
+                font-size: 16px;
+                background-color: #0085B2;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                line-height: 96px;
+                border-radius: 48px;
+                text-decoration: none;
+                transition: background-color 0.5s;
+                &:hover {
+                  background-color: #FF8000;
+                }
+            }
+            &.active {
+                a {
+                    background-color: #FF8000;
+                }
+            }
+        }
+    }
 }
 
 .slide-4 {
     background: url(../images/bg04.jpg) no-repeat center center;
     background-size: 100% 100%;
     .mask {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      background: url(../images/mask.png) no-repeat center center;
-      background-size: 100% 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: url(../images/mask.png) no-repeat center center;
+        background-size: 100% 100%;
     }
-    .content {
-       width: 573px;
-       height: 613px;
-       background: url(../images/bg05.png) no-repeat center top;
-       position: absolute;
-       @include middle-and-center(573px, 613px);
-       color: #444444;
-       h3 {
-        text-align: center;
-        font-size: 26px;
-        font-weight: normal;
-        padding-right: 80px;
-        margin-top: 50px;
-       }
-       p {
-        font-size: 12px;
-        padding: 0 110px 0 80px;
-        line-height: 2;
-       }
+    .content-wrap {
+        width: 573px;
+        height: 613px;
+        background: url(../images/bg05.png) no-repeat center top;
+        position: absolute;
+        @include middle-and-center(573px, 613px);
+        color: #444444;
+        transform: scale(0);
+        h3 {
+            text-align: center;
+            font-size: 26px;
+            font-weight: normal;
+            padding-right: 80px;
+            margin-top: 50px;
+        }
+        .content {
+            font-size: 12px;
+            padding: 0 110px 0 80px;
+            line-height: 2;
+            p, h3 {
+                @include opacity(0);
+                display: none;
+            }
+        }
     }
     .nav {
-      position: absolute;
-      width: 428px;
-      left: 50%;
-      top: 50%;
-      margin-left: -234px;
-      margin-top: 220px;
-      padding-left: 0;
-      list-style: none;
-      text-align: center;
-      li {
-        float: left;
-        width: 20%;
-        display: none;
-        a {
-          color: #ffffff;
-          font-size: 12px;
-          text-decoration: none;
+        position: absolute;
+        width: 428px;
+        left: 50%;
+        top: 50%;
+        margin-left: -234px;
+        margin-top: 220px;
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+        li {
+            float: left;
+            width: 20%;
+            display: none;
+            a {
+                color: #ffffff;
+                font-size: 12px;
+                text-decoration: none;
+            }
         }
-      }
     }
     .footer {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 106px;
-      line-height: 106px;
-      background-color: #222222;
-      color: #BBBBBB;
-        font-size: 12px;
-      .col-6 {
-        float: left;
-        width: 50%;
-      }
-      .right {
-        text-align: right;
-      }
-      .logo {
-        margin-left: 80px;
-        border-right: 1px solid #72777c;
-        padding-right: 20px;
-        vertical-align: middle;
-      }
-      .author {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 106px;
+        line-height: 106px;
+        background-color: #222222;
         color: #BBBBBB;
         font-size: 12px;
-        margin-left: 20px;
-      }
-      .copyright {
-        line-height: 2;
-        float: right;
-        padding-left: 20px;
-        margin-left: 20px;
-        margin-top: 30px;
-        border-left: 1px solid #72777c;
-        text-align: left;
-        padding-right: 80px;
-      }
-      .icon-contact {
-        margin-right: 10px;
-        margin-top: 40px;
-      }
+        .col-6 {
+            float: left;
+            width: 50%;
+        }
+        .right {
+            text-align: right;
+        }
+        .logo {
+            position: static;
+            margin-left: 80px;
+            border-right: 1px solid #72777c;
+            padding-right: 20px;
+            vertical-align: middle;
+        }
+        .author {
+            color: #BBBBBB;
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        .copyright {
+            line-height: 2;
+            float: right;
+            padding-left: 20px;
+            margin-left: 20px;
+            margin-top: 30px;
+            border-left: 1px solid #72777c;
+            text-align: left;
+            padding-right: 80px;
+        }
+        .icon-contact {
+            margin-right: 10px;
+            margin-top: 40px;
+        }
     }
 }

@@ -319,6 +319,7 @@ module.exports = function (grunt) {
           cwd: '<%= config.app %>',
           dest: '<%= config.dist %>',
           src: [
+            'images/*.{mp4,m4v,ogg}',
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
             '{,*/}*.html',
@@ -423,9 +424,9 @@ module.exports = function (grunt) {
     'uglify',
     'copy:dist',
     'modernizr',
-    'rev',
+    // 'rev',
     'usemin',
-    'htmlmin'
+    // 'htmlmin'
   ]);
 
   grunt.registerTask('default', [
