@@ -155,7 +155,7 @@ body {
         }
         &.floating-5 {
             @include middle-and-center(99px, 60px);
-            transition-property: margin, z-index;
+            transition-property: margin, z-index, opacity;
             transition-duration: 1.5s;
             transition-delay: 1s;
             z-index: 0;
@@ -185,6 +185,17 @@ body {
             transition-delay: 1s;
             transform: translate3d(0px, 0px, 0px) scale(1);
         }
+        &.floating-astronaut {
+            @include middle-and-center(422px, 258px);
+            transition-property: margin, z-index;
+            transition-duration: 1.7s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
+            z-index: 10;
+            transform-origin: 40px 220px;
+            margin-left: -56px;
+                margin-top: -330px;
+        }
     }
     &.active-slide {
         .floating {
@@ -194,7 +205,6 @@ body {
                 margin-top: -70px;
             }
             &.floating-2 {
-                transform: scale(1);
             }
             &.floating-3 {
                 margin-left: -452px;
@@ -224,6 +234,11 @@ body {
             &.floating-9 {
                 margin-left: -250px;
                 margin-top: -250px;
+            }
+            &.floating-astronaut {
+                margin-left: -56px;
+                margin-top: -330px;
+                // z-index: 15;
             }
         }
     }

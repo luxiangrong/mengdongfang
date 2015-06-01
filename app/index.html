@@ -6,6 +6,8 @@
     <title>mengdongfang</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
@@ -48,6 +50,7 @@
                 <img class="floating floating-7 floating-up-and-down" src="images/pic07.png"></img>
                 <img class="floating floating-8" src="images/pic08.png"></img>
                 <img class="floating floating-9" src="images/pic09.png"></img>
+                <img class="floating floating-astronaut" src="images/pic17.png"></img>
             </div>
         </div>
         <div class="slide slide-2">
@@ -63,8 +66,10 @@
         </div>
         <div class="slide slide-3">
             <img class="logo" src="images/logo02.png" />
-            <video autoplay="autoplay" loop="loop">
-                <source src="http://caseshow-demo.stor.sinaapp.com/1.mp4" type="video/mp4" />aaaa
+            <video id="bg-video" loop="loop">
+                <!-- <source src="images/1.mp4" type="video/mp4" />
+                <source src="images/2.mp4" type="video/mp4" /> -->
+                <source src="http://caseshow-demo.stor.sinaapp.com/2.mp4" type="video/mp4" />
             </video>
             <div class="pic-wrap">
                 <div class="pic"></div>
@@ -231,10 +236,15 @@
                 if (index != 0) {
                     resetSlide1();
                 }
+                if (index != 1) {
+                    resetSlide2();
+                }
+                if (index != 2) {
+                    resetSlide3();
+                }
             }
 
             function resetSlide1() {
-                console.log(1);
                 $('.slide-1 .floating-2').velocity({
                     scale: 0,
                     translateY: 0,
@@ -242,12 +252,36 @@
                 }, {
                     duration: 0
                 });
-                $('.slide-1 .floating').not('.floating-2').velocity({
+
+                $('.floating-astronaut').velocity('stop', true);
+                $('.slide-1 .floating-astronaut').velocity({
+                    opacity: 0,
+                    scale: 1,
                     translateY: 0,
-                    translateZ: 0
+                    translateZ: 0,
+                    rotateZ: 0
                 }, {
                     duration: 0
                 });
+
+            }
+
+            function resetSlide2() {
+                $('.slide-2 .floating-10').velocity({
+                    scale: 0,
+                    opacity: 0
+                }, {
+                    duration: 0,
+                });
+
+                $('.slide-2 .floating-11').hide();
+                $('.slide-2 .floating-12, .slide-2 .floating-13').velocity('transition.slideDownOut', {
+                    duration: 0
+                });
+            }
+
+            function resetSlide3() {
+                $('#bg-video')[0].pause();
             }
 
             //分屏滚动初始化
@@ -260,29 +294,74 @@
                     reset(index);
                     switch (index) {
                         case 0:
-                            // $('.slide-1 .floating').not('.floating-2').velocity('stop', true);
-                            // $('.slide-1 .floating').velocity({
-                            //     scale: 1,
-                            //     translateY: 0,
-                            //     translateZ: 0
-                            // }, {
-                            //     complete: function() {
-                            //         $('.floating-up-and-down').each(function(i, data) {
-                            //             $(this).velocity({
-                            //                 translateY: _.random(20, 20) + 'px',
-                            //                 rotateZ: _.random(-10, 10) + 'deg'
-                            //             }, {
-                            //                 loop: true,
-                            //                 duration: 2000,
-                            //                 delay: _.random(500, 1000)
-                            //             });
-
-                            //         });
-                            //     }
-                            // });
-
-
-
+                            break;
+                        case 1:
+                            break;
+                    }
+                    if (index === 3) {
+                        $(".slide-4 .content-wrap").velocity({
+                            scale: 1,
+                            translateZ: 0
+                        });
+                        $(".slide-4 .nav li")
+                            .velocity("transition.slideUpIn", {
+                                stagger: 250
+                            })
+                            .delay(750);
+                    }
+                },
+                beforeSlide: function(index) {
+                    index = Number(index);
+                    $('.side-nav li').removeClass('active');
+                    $('.side-nav li').eq(index).addClass('active');
+                    directivePos($('.side-nav li').eq(index));
+                    switch (index) {
+                        case 0:
+                            resetSlide1();
+                            $('.slide-1 .floating-2').velocity({
+                                opacity: 1,
+                                scale: 1,
+                                translateY: 0,
+                                translateZ: 0
+                            }, {
+                                delay: 500,
+                                complete: function() {
+                                    $('.floating-up-and-down').each(function(i, data) {
+                                        $(this).velocity('stop', true);
+                                        $(this).velocity({
+                                            translateY: -10
+                                        }, {
+                                            complete: function() {
+                                                $(this).velocity('stop');
+                                                $(this).velocity({
+                                                    translateY: _.random(10, 10) + 'px',
+                                                    rotateZ: _.random(-10, 10) + 'deg'
+                                                }, {
+                                                    loop: true,
+                                                    duration: 2000,
+                                                    delay: _.random(500, 1000)
+                                                });
+                                            }
+                                        });
+                                    });
+                                    $('.floating-astronaut').velocity('stop', true);
+                                    $('.floating-astronaut').velocity({
+                                        opacity: 1,
+                                        scale: 1
+                                    }, {
+                                        complete: function() {
+                                            $('.floating-astronaut').velocity('stop');
+                                            $('.floating-astronaut').velocity({
+                                                rotateZ: _.random(10, 10) + 'deg'
+                                            }, {
+                                                loop: true,
+                                                duration: 2000,
+                                                delay: _.random(500, 1000)
+                                            });
+                                        }
+                                    });
+                                }
+                            });
                             break;
                         case 1:
                             $('.slide-2 .floating-10').velocity({
@@ -290,6 +369,7 @@
                                 opacity: 1,
                                 translateZ: 0
                             }, {
+                                delay: 750,
                                 complete: function() {
                                     // $('.slide-2 .floating-11').velocity('finish');
 
@@ -336,62 +416,8 @@
                                 }
                             });
                             break;
-                    }
-                    if (index === 3) {
-
-                        $(".slide-4 .content-wrap").velocity({
-                            scale: 1,
-                            translateZ: 0
-                        });
-                        $(".slide-4 .nav li")
-                            .velocity("transition.slideUpIn", {
-                                stagger: 250
-                            })
-                            .delay(750);
-                    }
-
-                },
-                beforeSlide: function(index) {
-                    $('.side-nav li').removeClass('active');
-                    $('.side-nav li').eq(index).addClass('active');
-                    directivePos($('.side-nav li').eq(index));
-                    switch (index) {
-                        case 0:
-                            $('.slide-1 .floating-2').velocity({
-                                opacity: 1,
-                                scale: 1,
-                                translateY: 0,
-                                translateZ: 0
-                            }, {
-                                delay: 500,
-                                complete: function() {
-                                    $('.floating-up-and-down').each(function(i, data) {
-                                        $(this).velocity('stop');
-                                        $(this).velocity({
-                                            translateY: _.random(20, 20) + 'px',
-                                            rotateZ: _.random(-10, 10) + 'deg'
-                                        }, {
-                                            loop: true,
-                                            duration: 2000,
-                                            delay: _.random(500, 1000)
-                                        });
-
-                                    });
-                                }
-                            });
-                            break;
-                        case 1:
-                            $('.slide-2 .floating-10').velocity({
-                                scale: 0,
-                                opacity: 0
-                            }, {
-                                duration: 0,
-                            });
-
-                            $('.slide-2 .floating-11').hide();
-                            $('.slide-2 .floating-12, .slide-2 .floating-13').velocity('transition.slideDownOut', {
-                                duration: 0
-                            });
+                        case 2: 
+                            $('#bg-video')[0].play();
                             break;
                         case 3:
                             $(".slide-4 .content-wrap").velocity({
@@ -415,7 +441,7 @@
                 arrowKeyEvents: true,
                 pagination: false,
                 nthClasses: false,
-                detectHash: true
+                detectHash: false
             });
 
 
@@ -424,24 +450,27 @@
             //slider.slideToIndex( index );
             //slider.unbind();
             //slider.rebind();
-            // slider.slideToIndex(0);
+            if (!window.location.hash) {
+                slider.slideToIndex(0);
+            }
+
             $('.side-nav a').on('click', function(e) {
                 e.preventDefault();
                 var nextPage = $(this).attr('href');
                 slider.slideToIndex(nextPage);
             });
 
-            $('.floating-up-and-down').each(function(i, data) {
-                $(this).velocity({
-                    translateY: _.random(20, 20) + 'px',
-                    rotateZ: _.random(-10, 10) + 'deg'
-                }, {
-                    loop: true,
-                    duration: 2000,
-                    delay: _.random(500, 1000)
-                });
+            // $('.floating-up-and-down').each(function(i, data) {
+            //     $(this).velocity({
+            //         translateY: _.random(20, 20) + 'px',
+            //         rotateZ: _.random(-10, 10) + 'deg'
+            //     }, {
+            //         loop: true,
+            //         duration: 2000,
+            //         delay: _.random(500, 1000)
+            //     });
 
-            });
+            // });
 
             var lastContent = null;
             $('.slide-4 .nav li a').on('click', function(e) {
