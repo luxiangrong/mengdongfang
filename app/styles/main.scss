@@ -126,51 +126,69 @@ body {
     background: url(../images/bg01.jpg) no-repeat center center;
     background-size: 100% 100%;
     .floating {
-        transition: margin 1s 1s;
-        transform: translate3d(0px, 0px, 0px);
+        transition: margin 1s, opacity 1s;
+        transform: translate3d(0px, 0px, 0px) scale(0);
+        @include opacity(0);
         &.floating-1 {
             @include middle-and-center(59px, 61px);
             transition-duration: 1.2s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-2 {
             @include middle-and-center(743px, 650px);
-            transform: scale(0.3);
+            transform: scale(0);
             transition: none;
             z-index: 10;
         }
         &.floating-3 {
             @include middle-and-center(97px, 51px);
             transition-duration: 1s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-4 {
             @include middle-and-center(110px, 57px);
             transition-duration: 1.2s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-5 {
             @include middle-and-center(99px, 60px);
             transition-property: margin, z-index;
             transition-duration: 1.5s;
+            transition-delay: 1s;
             z-index: 0;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-6 {
             @include middle-and-center(106px, 137px);
             transition-duration: 0.9s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-7 {
             @include middle-and-center(122px, 126px);
             transition-duration: 1.5s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-8 {
             @include middle-and-center(36px, 30px);
             transition-duration: 1.2s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
         &.floating-9 {
             @include middle-and-center(51px, 35px);
             transition-duration: 1.7s;
+            transition-delay: 1s;
+            transform: translate3d(0px, 0px, 0px) scale(1);
         }
     }
     &.active-slide {
         .floating {
+            @include opacity(1);
             &.floating-1 {
                 margin-left: -442px;
                 margin-top: -70px;
@@ -229,10 +247,11 @@ body {
             @include middle-and-center(129px, 93px);
             transition-duration: 1s;
             transition-delay: 1.5s;
-            margin-left: 290px;
-            margin-top: -15px;
             display: block;
-            @include opacity(1);
+            width: 129px;
+            height: 93px;
+            transform: scale(0);
+            @include opacity(0);
         }
         &.floating-12 {
             @include middle-and-center(332px, 110px);
